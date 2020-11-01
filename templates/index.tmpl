@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>GALLERY_modal</title>
+    <link rel="stylesheet" href="../public/style.css">
+</head>
+
+<body>
+    <main>
+        <h2>{{title}}</h2>
+             {% for key, image in images %}
+                <img class="a_img" src="../img/{{image}}">
+                <div id="modal_{{key}}" class="modal">
+                      <div class="modal_content">
+                            <span class="close_modal_window">×</span>
+                            <img src="../img/{{image}}">
+                      </div>
+                </div>
+              {% endfor %}
+    </main>
+
+    <form action="../models/upload.php" method="post" enctype="multipart/form-data">
+        <h3>Добавить файл</h3>
+        <input type="file" name="img" accept="image/jpeg, image/png">
+        <input class="but" type="submit" value="ЗАГРУЗИТЬ">
+    </form>
+
+    <script src="../public/script.js"></script>
+
+</body>
+
+</html>
