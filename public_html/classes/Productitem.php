@@ -19,29 +19,18 @@ class Productitem {
         $this->stock = $stock;
     }
 
-    public function getId(){
-        return $this->id;
-    }
-    public function getTitle(){
-        return $this->title;
-    }
-    public function getPrice(){
-        return $this->price;
-    }
-    public function getImg(){
-        return $this->img;
-    }
-    public  function getStock(){
-        return $this->stock;
-    }
+//    public function getId(){
+//        return $this->id;
+//    }
+
     function render(){
-        $show =
+        return
             "<div class='galitem'>" .
             "<img src=" . "../admin/uploadimg/" . $this->img . ">" .
             "<p>" . $this->title . "</p>" .
             "<p class='itemId'>" . $this->id . "</p>" .
-            "<a href=" . "card.php?good=" . $this->id . " class=" . "buy1" . ">Купить</a>" .
+            "<p class='itemprice'>" . $this->price . "$"."</p>" .
+            "<a href=" . "#" . " class=" . "buy1" . ">Купить</a>" .
             "</div>";
-        return $show;
     }
 }

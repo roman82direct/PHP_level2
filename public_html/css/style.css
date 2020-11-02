@@ -469,7 +469,7 @@ body {
 
 .galitem {
     width: 270px;
-    height: 481px;
+    /*height: 481px;*/
     background-color: #f7f7f7;
     float: left;
     margin: 92px 15px 30px;
@@ -482,6 +482,11 @@ body {
     line-height: 23.94px;
     text-transform: uppercase;
     text-align: center;
+}
+.itemprice {
+    color: red !important;
+    font-size: 20px !important;
+    font-weight: 600 !important;
 }
 
 /*.galitem a {*/

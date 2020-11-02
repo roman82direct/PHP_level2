@@ -24,14 +24,15 @@
                                     <img src="../admin/uploadimg/{{ item['img'] }}">
                                     <p>{{ item['title'] }}</p>
                                     <p class="itemId">{{ item['id'] }}</p>
-                                    <a href="card.php?good={{ item['id'] }}" class="buy1">Купить</a>
+                                    <p class="itemprice">{{ item['price'] }}$</p>
+                                    <a href="#" class="buy1">Купить</a>
                                 </div>
                         {% endfor %}
              </div>
                   <div id="showContent" class="galbl"></div>
         </div>
 
-        <a href="#" id="showMore" class="show">Show more games...></a>
+        <a href="#" id="showMore" class="show">Показать еще игры...></a>
 
         {% include "contact.tmpl" %}
 

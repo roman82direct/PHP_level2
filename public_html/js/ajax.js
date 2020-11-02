@@ -4,7 +4,7 @@ let textId = document.getElementsByClassName('itemId');
 
 button.onclick = (event) => {
     event.preventDefault();
-        $.ajax({
+        jQuery.ajax({                   //$.ajax
         url: '../controllers/shownext.php',
         method: 'GET',
         dataType: 'html',
@@ -14,6 +14,7 @@ button.onclick = (event) => {
                 cont.innerHTML += html;
             } else {
                 button.innerText = 'Все товары загружены';
+                button.style.color = 'red';
                 button.onclick = null;
             }
         }
