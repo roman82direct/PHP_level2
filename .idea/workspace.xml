@@ -19,13 +19,22 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="79ac718e-42a8-485c-a3da-1df3f8580e70" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Lesson2/Digitalgoods.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lesson2/Good.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lesson2/Quantgoods.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lesson2/Weightgoods.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lesson2/index.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
+    <list default="true" id="79ac718e-42a8-485c-a3da-1df3f8580e70" name="Default Changelist" comment="Lesson3">
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/2017-08-22-09-43-43-1000x667.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/6e4a24ecc8277f05ae7ff828ca9c7656-e1475838175131.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/DSC100188044.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/nastroje_hardware-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/notebook-mockup08.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/pen-4337524_960_720.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/pexels-photo-574084.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/s1200.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/upload.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/script.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/index.tmpl" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,7 +47,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="Lesson2" />
+        <entry key="$PROJECT_DIR$" value="Lesson3_Templators(twig)" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -62,8 +71,17 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1604260006407</updated>
-      <workItem from="1604260007676" duration="362000" />
+      <workItem from="1604260007676" duration="1081000" />
+      <workItem from="1604344992037" duration="304000" />
     </task>
+    <task id="LOCAL-00001" summary="Lesson3">
+      <created>1604260386317</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1604260386317</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -79,11 +97,20 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Lesson3" />
+    <option name="LAST_COMMIT_MESSAGE" value="Lesson3" />
   </component>
   <component name="WindowStateProjectService">
     <state x="667" y="162" key="#PHP" timestamp="1604260178367">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="667" y="162" key="#PHP/0.0.1920.1040@0.0.1920.1040" timestamp="1604260178367" />
+    <state x="690" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1604345276970">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="690" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1604345276970" />
   </component>
 </project>
