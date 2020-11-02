@@ -19,22 +19,11 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="79ac718e-42a8-485c-a3da-1df3f8580e70" name="Default Changelist" comment="Lesson3">
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/2017-08-22-09-43-43-1000x667.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/6e4a24ecc8277f05ae7ff828ca9c7656-e1475838175131.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/DSC100188044.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/nastroje_hardware-1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/notebook-mockup08.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/pen-4337524_960_720.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/pexels-photo-574084.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/s1200.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/upload.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/script.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/index.tmpl" beforeDir="false" />
+    <list default="true" id="79ac718e-42a8-485c-a3da-1df3f8580e70" name="Default Changelist" comment="Lesson4 HW">
+      <change afterPath="$PROJECT_DIR$/public_html/classes/Productitem.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controllers/shownext.php" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/shownext.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/header.tmpl" beforeDir="false" afterPath="$PROJECT_DIR$/templates/header.tmpl" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,11 +43,15 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP 7.2" />
   <component name="ProjectId" id="1jhcx5HN8OydEQ6DkEgdxtY7U1X" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="vue.rearranger.settings.migration" value="true" />
@@ -72,7 +65,9 @@
       <option name="presentableId" value="Default" />
       <updated>1604260006407</updated>
       <workItem from="1604260007676" duration="1081000" />
-      <workItem from="1604344992037" duration="304000" />
+      <workItem from="1604344992037" duration="719000" />
+      <workItem from="1604345744291" duration="166000" />
+      <workItem from="1604345929033" duration="2891000" />
     </task>
     <task id="LOCAL-00001" summary="Lesson3">
       <created>1604260386317</created>
@@ -81,7 +76,14 @@
       <option name="project" value="LOCAL" />
       <updated>1604260386317</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Lesson4 HW">
+      <created>1604345485953</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1604345485953</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -101,16 +103,33 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Lesson3" />
-    <option name="LAST_COMMIT_MESSAGE" value="Lesson3" />
+    <MESSAGE value="Lesson4 HW" />
+    <option name="LAST_COMMIT_MESSAGE" value="Lesson4 HW" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="711" y="343" key="#Notifications" timestamp="1604345966768">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="711" y="343" key="#Notifications/0.0.1920.1040@0.0.1920.1040" timestamp="1604345966768" />
     <state x="667" y="162" key="#PHP" timestamp="1604260178367">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="667" y="162" key="#PHP/0.0.1920.1040@0.0.1920.1040" timestamp="1604260178367" />
+    <state x="552" y="177" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1604345996087">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="177" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1604345996087" />
     <state x="690" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1604345276970">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="690" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1604345276970" />
+    <state width="196" height="457" key="HiddenNamespacesPopup" timestamp="1604345952893">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="196" height="457" key="HiddenNamespacesPopup/0.0.1920.1040@0.0.1920.1040" timestamp="1604345952893" />
+    <state x="653" y="242" key="NewPhpClassDialog" timestamp="1604347106292">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="653" y="242" key="NewPhpClassDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1604347106292" />
   </component>
 </project>
