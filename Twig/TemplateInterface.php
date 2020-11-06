@@ -10,7 +10,7 @@
  */
 
 /**
- * Interface implemented by all compiled templates.
+ * Interface implemented by all compiled views.
  *
  * @author Fabien Potencier <fabien@symfony.com>
  * @deprecated since 1.12 (to be removed in 2.0)

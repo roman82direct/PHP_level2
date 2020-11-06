@@ -187,7 +187,7 @@ body {
     min-height: 91px;
     border-bottom: 1px solid lightgrey;
     display: flex;
-    justify-content: space-around;
+    justify-content: flex-end;
     /*padding-left: 450px*/
 }
 
@@ -223,13 +223,13 @@ body {
 }
 
 .userbar {
-    width: 590px;
+    /*width: 590px;*/
 }
 
 .userbar-link {
     width: 150px;
     text-decoration: none;
-    color: lightgrey;
+    color: grey;
     font-family: "Roboto Condensed";
     font-size: 18px;
     font-weight: 400;
@@ -248,7 +248,7 @@ body {
 
 .userbar-link:hover {
     letter-spacing: 0.1px;
-    color: darkgrey;
+    color: black;
 }
 
 .firstpage-text1 {
@@ -1245,7 +1245,7 @@ padding: 10px;
     position: fixed; /* чтoбы oкнo былo в видимoй зoне в любoм месте */
     top: 10%; /* oтступaем сверху */
     left: 30%;
-    margin-top: -200px;
+    margin-top: -300px;
     margin-left: 0px;
     display: none; /* в oбычнoм сoстoянии oкнa не дoлжнo быть */
     opacity: 0; /* пoлнoстью прoзрaчнo для aнимирoвaния */
@@ -1267,7 +1267,7 @@ padding: 10px;
     z-index:3; /* пoдлoжкa дoлжнa быть выше слoев элементoв сaйтa, нo ниже слoя мoдaльнoгo oкнa */
     position:fixed; /* всегдa перекрывaет весь сaйт */
     background-color:#000; /* чернaя */
-    opacity:0.2; /* нo немнoгo прoзрaчнa */
+    opacity:0.5; /* нo немнoгo прoзрaчнa */
     -moz-opacity:0.8; /* фикс прозрачности для старых браузеров */
     filter:alpha(opacity=80);
     width:100%;

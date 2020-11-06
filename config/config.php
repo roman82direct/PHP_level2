@@ -1,5 +1,5 @@
 <?php
-//session_start();
+session_start();
 
 define('DB_DRIVER','mysql');
 define('DB_HOST','localhost');

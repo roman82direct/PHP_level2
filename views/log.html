@@ -1,0 +1,17 @@
+<!--modal for login form-->
+<div id="modal_log" class="modal_div_log">
+    <span class="modal_close">X</span>
+    <p class="contus1">Введите Ваши учётные данные</p>
+    <div class="contform1">
+
+        <form action="../controllers/autent.php" method="post">
+            <fieldset style="border: none; width: 500px; margin: 0 auto; padding: 0px">
+                <input type="email" name="email" class="contformtxt" placeholder="EMAIL" autofocus required pattern="\S+@[a-z]+.[a-z]+"><br>
+                <input type="password" name="pass" class="contformtxt" placeholder="Пароль" required><br>
+                <input type="submit" name="login" class="contbutt" value="Войти">
+            </fieldset>
+        </form>
+    </div>
+
+</div>
+<div id="overlay"></div>

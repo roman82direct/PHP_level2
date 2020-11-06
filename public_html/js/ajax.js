@@ -20,3 +20,15 @@ button.onclick = (event) => {
         }
     })
 }
+
+document.getElementById('signForm').onsubmit(function (){
+    $.ajax({
+        type: "POST",
+        url: "../controllers/register.php",
+        data: $(this).serialize(),
+        success: function(html){
+            $("#existUser").html(html);
+        }
+    });
+    return false;
+});

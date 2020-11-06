@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Хост: 127.0.0.1:3307
--- Время создания: Ноя 02 2020 г., 22:41
+-- Время создания: Ноя 06 2020 г., 22:35
 -- Версия сервера: 8.0.19
 -- Версия PHP: 7.2.29
 
@@ -130,7 +130,8 @@ CREATE TABLE `users` (
 INSERT INTO `users` (`id`, `name`, `email`, `tel`, `login`, `pass`, `role`) VALUES
 (45, 'admin', 'admin@gamers.com', '', 'admin', '8zxc6543vbfdse21232f297a57a5a743894a0e4a801fc38zxc6543vbfdse', 1),
 (56, 'test', 'test@test.com', '123456789', 'test', '8zxc6543vbfdse098f6bcd4621d373cade4e832627b4f68zxc6543vbfdse', 0),
-(57, 'Pit', 'pit@pit.com', '123141324324', 'Pit', '8zxc6543vbfdse202cb962ac59075b964b07152d234b708zxc6543vbfdse', 0);
+(67, 'test', 'test@test.ru', 'test', 'test', '8zxc6543vbfdse098f6bcd4621d373cade4e832627b4f68zxc6543vbfdse', 0),
+(68, '1', 'aa@aa.ru', '12', '212', '8zxc6543vbfdsec20ad4d76fe97759aa27a0c99bff67108zxc6543vbfdse', 0);
 
 --
 -- Индексы сохранённых таблиц
@@ -186,7 +187,7 @@ ALTER TABLE `orders`
 -- AUTO_INCREMENT для таблицы `users`
 --
 ALTER TABLE `users`
-  MODIFY `id` int NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=58;
+  MODIFY `id` int NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=69;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;

@@ -14,10 +14,9 @@
 <body>
     <div class="contaner">
 
-        {% include 'header.tmpl' %}
+        {% include 'headerUser.tmpl' %}
 
         <div class="gallery clearfix">
-             <div class="galh">Галерея</div>
                   <div class="galbl">
                         {% for item in data %}
                                 <div class="galitem">
@@ -28,11 +27,11 @@
                                     <a href="#" class="buy1">Купить</a>
                                 </div>
                         {% endfor %}
-             </div>
+                  </div>
                   <div id="showContent" class="galbl"></div>
         </div>
 
-        <a href="#" id="showMore" class="show">Показать еще игры...></a>
+        <a href="#" id="showMore" class="show">Показать еще игры...</a>
 
         {% include "contact.tmpl" %}
 
@@ -46,5 +45,6 @@
 
     <script src="../public_html/js/jquery-3.5.1.min.js"></script>
     <script src="../public_html/js/ajax.js"></script>
+    <script src="../public_html/js/script.js"></script>
 </body>
 </html>

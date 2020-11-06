@@ -1,0 +1,21 @@
+<!--modal for sign in form-->
+<div id="modal_sign" class="modal_div_sign">
+    <span class="modal_close">X</span>
+    <p class="contus1">Введите Ваши учётные данные</p>
+
+    <div id="existUser" class="galbl"></div>
+
+    <div class="contform1">
+        <form id="signForm" action="../controllers/register.php" method="post">
+            <fieldset style="border: none; width: 500px; margin: 0 auto; padding: 0px">
+                <input type="text" name="name" class="contformtxt" placeholder="Ваше имя" autofocus><br>
+                <input type="text" name="login" class="contformtxt" placeholder="Введите login"><br>
+                <input type="email" name="email" class="contformtxt" placeholder="E-MAIL" pattern="\S+@[a-z]+.[a-z]+" required><br>
+                <input type="tel" name="tel" class="contformtxt" placeholder="Телефон"><br>
+                <input type="password" name="pass" class="contformtxt" placeholder="Пароль" required><br>
+                <input type="submit" name="sign" class="contbutt" value="Регистрация">
+            </fieldset>
+        </form>
+    </div>
+</div>
+<div id="overlay"></div>

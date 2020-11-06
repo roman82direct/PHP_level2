@@ -11,7 +11,7 @@
  */
 
 /**
- * Default base class for compiled templates.
+ * Default base class for compiled views.
  *
  * @author Fabien Potencier <fabien@symfony.com>
  */
@@ -187,7 +187,7 @@ abstract class Twig_Template implements Twig_TemplateInterface
      * This method does only return blocks defined in the current template
      * or defined in "used" traits.
      *
-     * It does not return blocks from parent templates as the parent
+     * It does not return blocks from parent views as the parent
      * template name can be dynamic, which is only known based on the
      * current context.
      *

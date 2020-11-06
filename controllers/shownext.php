@@ -1,6 +1,6 @@
 <?php
 require_once "../config/config.php";
-include "../public_html/classes/Productitem.php";
+include "Productitem.php";
 
 $res = $db->query("SELECT * FROM `goods` order by `id` LIMIT 1");
 $data = $res->fetch();
