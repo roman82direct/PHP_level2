@@ -1,0 +1,30 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<h1>Каталог товаров</h1>
+{% if not user %}
+<div class="alert alert-info">Покупка доступна только зарегистрированным пользователям</div>
+{% endif %}
+<div class="gallery clearfix" id="goods">
+  <div class="galbl">
+        {% for good in goods %}
+        <div class="galitem">
+            <img src="../img/{{good.catalogImg}}">
+            <h3>{{ good.name }}</h3>
+            <p>{{ good.price }}p.</p>
+        {% if user %}
+          <form action="index.php?act=buy&c=catalog" method="post">
+              <input type="hidden" name="add" value="{{ good.id_good }}">
+              <input type="submit" value="В корзину" class="btn btn-primary">
+          </form>
+         {% endif %}
+        </div>
+        {% endfor %}
+  </div>
+  <div id="showContent" class="galbl"></div>
+
+</div>
+<a href="#" id="showMore" class="show">Показать еще игры...</a>
+{% include "contact.tmpl" %}
+{% endblock %}
+
