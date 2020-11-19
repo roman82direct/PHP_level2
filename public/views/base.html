@@ -25,8 +25,7 @@
 </head>
   <body>
 
-    <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
-<!--      <div class="container">-->
+   <div class="navbar navbar-inverse" role="navigation"><!--для фиксации меню добавь класс navbar-fixed-top-->
         <div class="navbar-header">
           <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
             <span class="sr-only">Toggle navigation</span>
@@ -34,14 +33,16 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-<!--          <a class="navbar-brand" href="index.php">GeekPHPLesson</a>-->
         </div>
         {% include 'header.tmpl' %}
         <div class="collapse navbar-collapse">
             <div class="navflex">
                 <ul class="nav navbar-nav">
                     <li {% if main %} class="active" {% endif %}><a href="index.php">Главная</a></li>
-                    <li {% if catalog %} class="active" {% endif %}><a href="index.php?act=view&c=catalog">Каталог товаров</a></li>
+                    <li class=""><a href="index.php#about">О нас</a></li>
+                    <li class=""><a href="index.php#serv">Сервис</a></li>
+                    <li class=""><a href="index.php#team">Команда</a></li>
+                    <li {% if catalog %} class="active" {% endif %}><a href="index.php?act=view&c=catalog">Каталог</a></li>
                     <li {% if basket %} class="active" {% endif %}><a href="index.php?act=view&c=basket">Корзина ({{ goodsInBasket }})</a></li>
                 </ul>
           {% if user %}
@@ -55,12 +56,9 @@
           {% endif %}
         </div>
         </div>
-<!--      </div>-->
     </div>
 
-<!--    <div class="container">-->
       {% block content %}{% endblock %}
-<!--    </div>-->
     <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
     <script src="js/jquery-1.10.2.min.js"></script>
     <script src="js/bootstrap.min.js"></script>

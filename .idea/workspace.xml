@@ -19,40 +19,11 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7d4d114b-5817-4670-b0ff-62962a654961" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+    <list default="true" id="7d4d114b-5817-4670-b0ff-62962a654961" name="Default Changelist" comment="styles done">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DB.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/DB.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controllers/C_Basket.php" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/C_Basket.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controllers/C_Catalog.php" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/C_Catalog.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controllers/C_Controller.php" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/C_Controller.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controllers/C_Index.php" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/C_Index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controllers/C_User.php" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/C_User.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/bootstrap.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/bootstrap.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/starter-template.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/starter-template.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/styleanother.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/styleanother.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Assasin.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/catalogImg/Assasin.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/galWorld_of_Warships.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/catalogImg/galWorld_of_Warships.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/galbatfr.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/catalogImg/galbatfr.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/galcallofd.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/catalogImg/galcallofd.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/galwoft.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/catalogImg/galwoft.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/ryse.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/catalogImg/ryse.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/simhit.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/catalogImg/simhit.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/tombrider.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/catalogImg/tombrider.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/bootstrap.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/bootstrap.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/jquery-1.10.2.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/jquery-1.10.2.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/404.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/views/404.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/Catalog.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/views/Catalog.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/views/base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/basket.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/views/basket.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/contact.tmpl" beforeDir="false" afterPath="$PROJECT_DIR$/public/views/contact.tmpl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/header.tmpl" beforeDir="false" afterPath="$PROJECT_DIR$/public/views/header.tmpl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/views/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/views/login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/registration.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/views/registration.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/views/Catalog.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/views/Catalog.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/views/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/views/base.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -106,8 +77,16 @@
       <workItem from="1605632752530" duration="1398000" />
       <workItem from="1605634376315" duration="4612000" />
       <workItem from="1605640696288" duration="9564000" />
-      <workItem from="1605774005721" duration="5617000" />
+      <workItem from="1605774005721" duration="10123000" />
     </task>
+    <task id="LOCAL-00001" summary="styles done">
+      <created>1605781741304</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1605781741304</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -123,6 +102,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="styles done" />
+    <option name="LAST_COMMIT_MESSAGE" value="styles done" />
   </component>
   <component name="WindowStateProjectService">
     <state x="667" y="162" key="#PHP" timestamp="1605633080496">
