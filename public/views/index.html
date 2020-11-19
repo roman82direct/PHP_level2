@@ -3,7 +3,8 @@
 {% block content %}
 <div class="firstdisp">
     <?php include "../templates/header.php" ?>
-
+    <img class="firstImg" src="img/firstpagebkgr.jpg" alt="">
+    <div class="firstTxt">
     <p class="firstpage-text1">Nunc eget nibh</p>
     <div class="imgtxt"><img src="img/imgtxt.svg" alt="block3"></div>
     <h1 class="firstpage-h1">Morbi in nisl auctor</h1>
@@ -12,6 +13,7 @@
         <a href="#" class="sociallink"><img src="img/twitter-logo-silhouette.png" alt="twitter"></a>
         <a href="#" class="sociallink"><img src="img/rss-feed-suscription-button-symbol-for-interface.png" alt="rss"></a>
         <a href="#" class="sociallink"><img src="img/vk-social-network-logo.png" alt="vk"></a>
+    </div>
     </div>
 
 </div>
@@ -255,6 +257,7 @@
         <input type="email" placeholder="Email">
         <button>Subscribe</button>
     </div>
+    {% include "contact.tmpl" %}
 
 
 

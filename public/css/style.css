@@ -29,17 +29,10 @@ element.style {
 .navbar-inverse{
     /*background-color: #ffffff;!important;*/
 }
-
-.firstdisp {
-    margin: 0 auto;
-    max-width: 1920px;
-    min-width: 700px;
-    min-height: 100%;
-    background-image: url(../img/firstpagebkgr.jpg);
-    padding: 13px 0 58px;
-
+.navflex {
+    display: flex;!important;
+    justify-content: space-around;!important;
 }
-
 .logobar {
     max-width: 100vw;
     min-height: 83px;
@@ -245,7 +238,26 @@ input[type="text"]:focus {
     letter-spacing: 0.1px;
     color: black;
 }
+.firstdisp {
+    margin: 0 auto;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    /*min-width: 700px;*/
+    /*min-height: 100%;*/
+    /*background-image: url(img/firstpagebkgr.jpg);*/
+}
 
+.firstImg {
+    width: 100%;
+    margin-top: 3%;
+    margin-left: -1px;
+}
+.firstTxt{
+    width: 100%;
+    position: absolute;
+    top: 20%;
+}
 .firstpage-text1 {
     color: #ffffff;
     font-family: "Roboto Condensed";
@@ -258,7 +270,6 @@ input[type="text"]:focus {
 .imgtxt {
     width: 80px;
     margin: 16px auto;
-
 }
 
 .firstpage-h1 {
@@ -335,7 +346,7 @@ input[type="text"]:focus {
     margin: 0 auto;
     max-width: 1920px;
     background-color: #f7f7f7;
-    padding: 92px 0px 33px;
+    padding: 50px 0px 33px;
 }
 
 .servtext {
@@ -659,7 +670,7 @@ input[type="text"]:focus {
     font-weight: 500;
     line-height: 48px;
     max-width: 1200px;
-    margin: 95px auto;
+    margin: 50px auto;
     text-align: center;
 }
 
@@ -844,8 +855,8 @@ input[type="text"]:focus {
     margin: 0 auto;
     max-width: 1920px;
     background-color: #f7f7f7;
-    padding-top: 98px;
-    padding-bottom: 79px;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
 .teambl {
@@ -904,11 +915,11 @@ input[type="text"]:focus {
 }
 
 .form {
-    margin: 0 auto;
-    max-width: 1920px;
-    max-height: 147px;
+    margin: 0 auto 50px;
+    padding-top: 30px;
+    width: 100%;
+    height: 35%;
     background-image: url(../img/subscr.jpg);
-    padding: 86px 0 80px
 }
 
 .subscrtxt {
@@ -968,7 +979,7 @@ input[type="text"]:focus {
 }
 
 .contactpage {
-    margin: 0 auto;
+    margin: 90px auto 0;
     max-width: 1920px;
     padding: 50px 0 90px;
 

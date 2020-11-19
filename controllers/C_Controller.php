@@ -34,7 +34,7 @@ abstract class C_Controller
 
 	// Если вызвали метод, которого нет - завершаем работу
 	public function __call($name, $params){
-		$this->title .= ' ::Страница не найдена';
+		$this->title .= ' Страница не найдена';
         $loader = new \Twig\Loader\FilesystemLoader('./views/');
         $twig = new \Twig\Environment($loader);
 		echo $twig->render('404.html', ['title' => $this->title]);

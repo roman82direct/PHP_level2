@@ -11,10 +11,10 @@
 
   <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;600;700;800;900&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
-  <link href="../css/bootstrap.css" rel="stylesheet">
-  <link href="../css/starter-template.css" rel="stylesheet">
-  <link href="../css/style.css" rel="stylesheet">
-  <link href="../css/styleanother1.css" rel="stylesheet">
+  <link href="css/bootstrap.css" rel="stylesheet">
+  <link href="css/starter-template.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
+<!--  <link href="css/styleanother1.css" rel="stylesheet">-->
 
   <!--[if lt IE 9]><script src="../../docs-assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
 
@@ -38,12 +38,12 @@
         </div>
         {% include 'header.tmpl' %}
         <div class="collapse navbar-collapse">
-
-          <ul class="nav navbar-nav">
-            <li {% if main %} class="active" {% endif %}><a href="index.php">Главная</a></li>
-            <li {% if catalog %} class="active" {% endif %}><a href="index.php?act=view&c=catalog">Каталог товаров</a></li>
-            <li {% if basket %} class="active" {% endif %}><a href="index.php?act=view&c=basket">Корзина ({{ goodsInBasket }})</a></li>
-          </ul>
+            <div class="navflex">
+                <ul class="nav navbar-nav">
+                    <li {% if main %} class="active" {% endif %}><a href="index.php">Главная</a></li>
+                    <li {% if catalog %} class="active" {% endif %}><a href="index.php?act=view&c=catalog">Каталог товаров</a></li>
+                    <li {% if basket %} class="active" {% endif %}><a href="index.php?act=view&c=basket">Корзина ({{ goodsInBasket }})</a></li>
+                </ul>
           {% if user %}
           <ul class="nav navbar-nav  navbar-right">
               <li {% if username %} class="active" {% endif %}><a href="index.php?act=logout&c=user">Выход ({{ user.name }})</a></li>
@@ -54,6 +54,7 @@
           </ul>
           {% endif %}
         </div>
+        </div>
 <!--      </div>-->
     </div>
 
@@ -61,7 +62,7 @@
       {% block content %}{% endblock %}
 <!--    </div>-->
     <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
-    <script src="../js/jquery-1.10.2.min.js"></script>
-    <script src="../js/bootstrap.min.js"></script>
+    <script src="js/jquery-1.10.2.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
   </body>
 </html>

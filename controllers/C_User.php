@@ -2,7 +2,7 @@
 //
 // Конттроллер страницы чтения.
 //
-require_once('models/M_User.php');
+require_once('../models/M_User.php');
 
 class C_User extends C_Base
 {
@@ -35,14 +35,14 @@ class C_User extends C_Base
 	}
 
 	public function action_lk(){
-		$this->title .= '::Личный кабинет';
+		$this->title .= ' Личный кабинет';
 		$history = $_SESSION['history'];
 		$username = isset($_SESSION['user']) ? $_SESSION['user'] : "anonimus";
 		$this->content = $this->Template('v/v_lk.php', array('username' => $username, 'lasturls' => $history));		
 	}
 
 	public function action_login(){
-    	$this->title .= '::Вход';
+    	$this->title .= ' :Вход';
 		if($this->isPost()){
 			$user = new M_User();
 			if ($user->login($_POST['userlogin'], $_POST['userpassword'])){
@@ -64,7 +64,7 @@ class C_User extends C_Base
 	}	
 	
 	public function action_registration(){
-    	$this->title .= '::Регистрация нового пользователя';
+    	$this->title .= ' :Регистрация нового пользователя';
 		
 		if($this->isPost()){
 			$user = new M_User();

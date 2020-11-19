@@ -19,83 +19,95 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="63820fcf-93cc-451e-8038-40d861ffcc2a" name="Default Changelist" comment="start">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="7d4d114b-5817-4670-b0ff-62962a654961" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DB.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/DB.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controllers/C_Basket.php" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/C_Basket.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controllers/C_Catalog.php" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/C_Catalog.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controllers/C_Controller.php" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/C_Controller.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controllers/C_Index.php" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/C_Index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controllers/C_User.php" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/C_User.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/bootstrap.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/bootstrap.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/starter-template.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/starter-template.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/styleanother.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/styleanother.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/Assasin.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/catalogImg/Assasin.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/galWorld_of_Warships.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/catalogImg/galWorld_of_Warships.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/galbatfr.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/catalogImg/galbatfr.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/galcallofd.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/catalogImg/galcallofd.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/galwoft.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/catalogImg/galwoft.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/ryse.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/catalogImg/ryse.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/simhit.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/catalogImg/simhit.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/tombrider.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/catalogImg/tombrider.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/bootstrap.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/bootstrap.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/jquery-1.10.2.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/jquery-1.10.2.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/404.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/views/404.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Catalog.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/views/Catalog.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/views/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/basket.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/views/basket.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/contact.tmpl" beforeDir="false" afterPath="$PROJECT_DIR$/public/views/contact.tmpl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/header.tmpl" beforeDir="false" afterPath="$PROJECT_DIR$/public/views/header.tmpl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/views/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/views/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/registration.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/views/registration.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <execution />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_BRANCH_BY_REPOSITORY">
-      <map>
-        <entry key="$PROJECT_DIR$" value="lesson5_MVC" />
-      </map>
-    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP 7.2">
     <include_path>
-      <path value="$PROJECT_DIR$/vendor/composer" />
-      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-mbstring" />
       <path value="$PROJECT_DIR$/vendor/symfony/polyfill-ctype" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-mbstring" />
       <path value="$PROJECT_DIR$/vendor/twig/twig" />
+      <path value="$PROJECT_DIR$/vendor/composer" />
     </include_path>
   </component>
-  <component name="ProjectId" id="1jv2GiE6EugPCpsuulmRkBlxNfl" />
+  <component name="ProjectId" id="1kQVLjN1YvD9zQ2lq9wWYRVx4u3" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="DatabaseDriversLRU" value="mysql" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/controllers" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/public" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\roman.papenov\Desktop\WEB\Курсы\PHP_Level 2\Lesson_5 MVC\HW\controllers" />
+      <recent name="C:\OpenServer\OpenServer\domains\PHPlevel2\PHP_level2\public" />
+      <recent name="C:\OpenServer\OpenServer\domains\PHPlevel2\PHP_level2\config" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\roman.papenov\Desktop\WEB\Курсы\PHP_Level 2\Lesson_5 MVC\HW\controllers" />
-      <recent name="C:\Users\roman.papenov\Desktop\WEB\Курсы\PHP_Level 2\Lesson_5 MVC\HW\views" />
-      <recent name="C:\Users\roman.papenov\Desktop\WEB\Курсы\PHP_Level 2\Lesson_5 MVC\HW\public_html\js" />
+      <recent name="C:\OpenServer\OpenServer\domains\Project1FW\public" />
+      <recent name="C:\OpenServer\OpenServer\domains\Project1FW\views" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="63820fcf-93cc-451e-8038-40d861ffcc2a" name="Default Changelist" comment="" />
-      <created>1604670150545</created>
+      <changelist id="7d4d114b-5817-4670-b0ff-62962a654961" name="Default Changelist" comment="" />
+      <created>1605632750539</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1604670150545</updated>
-      <workItem from="1604670151596" duration="16236000" />
-      <workItem from="1604693938000" duration="611000" />
-      <workItem from="1604695339688" duration="913000" />
-      <workItem from="1604696274748" duration="5974000" />
-      <workItem from="1605633473346" duration="639000" />
-      <workItem from="1605640994970" duration="8210000" />
-      <workItem from="1605696396928" duration="229000" />
-      <workItem from="1605769413462" duration="39000" />
-      <workItem from="1605769538106" duration="585000" />
-      <workItem from="1605770141402" duration="1717000" />
+      <updated>1605632750539</updated>
+      <workItem from="1605632752530" duration="1398000" />
+      <workItem from="1605634376315" duration="4612000" />
+      <workItem from="1605640696288" duration="9564000" />
+      <workItem from="1605774005721" duration="5617000" />
     </task>
-    <task id="LOCAL-00001" summary="start">
-      <created>1605770593820</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1605770593820</updated>
-    </task>
-    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -111,28 +123,11 @@
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
-  </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="start" />
-    <option name="LAST_COMMIT_MESSAGE" value="start" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="667" y="162" key="#PHP" timestamp="1604670206190">
+    <state x="667" y="162" key="#PHP" timestamp="1605633080496">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="667" y="162" key="#PHP/0.0.1920.1040@0.0.1920.1040" timestamp="1604670206190" />
-    <state x="552" y="177" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1605770288896">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="552" y="177" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1605770288896" />
-    <state x="795" y="442" key="NewPhpFileDialog" timestamp="1604672332816">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="795" y="442" key="NewPhpFileDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1604672332816" />
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1605770600703">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1605770600703" />
+    <state x="667" y="162" key="#PHP/0.0.1920.1040@0.0.1920.1040" timestamp="1605633080496" />
   </component>
 </project>

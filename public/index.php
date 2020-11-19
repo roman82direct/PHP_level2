@@ -2,15 +2,15 @@
 session_start();
 
 // Загрузка классов шаблонизатора
-require_once './vendor/autoload.php';
+require_once '../vendor/autoload.php';
 
 // Класс для работы с БД
-require_once './db.php';
+require_once '../config/DB.php';
 
 spl_autoload_register('c_autoload');
 //TODO переписать автозагрузчик для подключения всех классов
 function c_autoload($classname){
-	include_once("controllers/$classname.php");
+	include_once("../controllers/$classname.php");
 }
 
 //site.ru/index.php?act=auth&controllers=User

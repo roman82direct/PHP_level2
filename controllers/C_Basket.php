@@ -1,5 +1,5 @@
 <?php
-require_once('models/M_Basket.php');
+require_once('../models/M_Basket.php');
 
 class C_Basket extends C_Base
 {
@@ -8,7 +8,7 @@ class C_Basket extends C_Base
 	//
 	
 	public function action_index(){
-        $this->title .= '::Корзина';
+        $this->title .= ' Корзина';
         $basket = new M_Basket($_SESSION['user']['id']);
         $orders = $basket->getOrders();
         if (isset($_SESSION['basket'])){

@@ -1,5 +1,5 @@
 <?php
-require_once('models/M_Basket.php');
+require_once('../models/M_Basket.php');
 
 class C_Catalog extends C_Base
 {
@@ -8,7 +8,7 @@ class C_Catalog extends C_Base
 	//
 	
 	public function action_index(){
-        $this->title .= '::Каталог товаров';
+        $this->title .= ' Каталог товаров';
         
         $goods = db::getRows('SELECT * FROM goods', []);
         $this->render('Catalog.html', ['title' => $this->title, 

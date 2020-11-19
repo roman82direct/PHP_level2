@@ -29,7 +29,7 @@ body {
     max-width: 1920px;
     margin: 13px auto;
     min-height: 83px;
-    background-image: url(../img/contactsbkgr.svg);
+    background-image: url(../public/catalogImg/contactsbkgr.svg);
 }
 
 .logobar {
@@ -159,7 +159,7 @@ input[type="text"]:focus {
     width: 50px;
     border: 1px solid #ffffff;
     background: none;
-    background-image: url(../img/searchicon.png);
+    background-image: url(../public/catalogImg/searchicon.png);
     background-repeat: no-repeat;
     background-position: center;
     cursor: pointer;
@@ -355,11 +355,11 @@ width: 590px;
 }
 
 .discount {
-    background-image: url(../img/galler1.jpg);
+    background-image: url(../public/catalogImg/galler1.jpg);
 }
 
 .discount1 {
-    background-image: url(../img/galler2.jpg);
+    background-image: url(../public/catalogImg/galler2.jpg);
 }
 
 .pdisc {
