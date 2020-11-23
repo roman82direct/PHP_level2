@@ -20,16 +20,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7d4d114b-5817-4670-b0ff-62962a654961" name="Default Changelist" comment="styles done">
-      <change afterPath="$PROJECT_DIR$/models/adminGoods.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/admin.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controllers/C_Catalog.php" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/C_Catalog.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/showNext.php" beforeDir="false" afterPath="$PROJECT_DIR$/models/showNext.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/adminGoods.php" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/public/js/ajax.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/ajax.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/views/admin.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/views/admin.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/views/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/views/base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/views/catalogShowNext.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/views/render4.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/views/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/views/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,7 +85,7 @@
       <workItem from="1605861331592" duration="10665000" />
       <workItem from="1605895651650" duration="12865000" />
       <workItem from="1606158943730" duration="5488000" />
-      <workItem from="1606164690047" duration="2676000" />
+      <workItem from="1606164690047" duration="4445000" />
     </task>
     <task id="LOCAL-00001" summary="styles done">
       <created>1605781741304</created>
@@ -130,5 +125,9 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="453" y="21" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1605862836840" />
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1606167624267">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1606167624267" />
   </component>
 </project>

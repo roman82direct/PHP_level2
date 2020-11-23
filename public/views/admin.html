@@ -10,8 +10,7 @@
     <button id="admGoods">Загрузить товары</button>
     <button id="admOrders">Просмотреть заказы</button>
 
-    <div id="showGoods" class=""></div>
-    <div id="showOrders" class=""></div>
+    <div id="showAdm" class="galbl"></div>
 
 
 
@@ -20,6 +19,47 @@
     {% endif %}
 
 </div>
+<script>
+    let admButGoods = document.getElementById('admGoods');
+    let admContShow = document.getElementById('showAdm');
+    admButGoods.onclick = (event) => {
+        admContShow.innerHTML = '';
+        event.preventDefault();
+        $.ajax({
+            url: '../models/admin.php',
+            method: 'GET',
+            dataType: 'html',
+            data: "goods=1",
+            success: function(html){
+                if (html){
+                    admContShow.innerHTML = html;
+                } else {
+                    admContShow.innerText = 'Ошибка загрузки';
+                }
+            }
+        })
+    }
+
+    let admButOrders = document.getElementById('admOrders');
+    admButOrders.onclick = (event) => {
+        admContShow.innerHTML = '';
+        event.preventDefault();
+
+        $.ajax({
+            url: '../models/admin.php',
+            method: 'GET',
+            dataType: 'html',
+            data: "orders=1",
+            success: function(html){
+                if (html){
+                    admContShow.innerHTML = html;
+                } else {
+                    admContShow.innerText = 'Ошибка загрузки';
+                }
+            }
+        })
+    }
+</script>
 {% endblock %}
 
 

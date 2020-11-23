@@ -23,26 +23,6 @@ showbutton.onclick = (event) => {
     })
 }
 
-// показ инфо в админке
-let admButGoods = document.getElementById('admGoods');
-let admContGoods = document.getElementById('showGoods');
-admButGoods.onclick = (event) => {
-    event.preventDefault();
-    $.ajax({
-        url: '../models/adminGoods.php',
-        method: 'GET',
-        dataType: 'html',
-        data: "next=1",
-        success: function(html){
-            if (html){
-                admContGoods.innerHTML += html;
-            } else {
-                admContGoods.innerText = 'Ошибка загрузки';
-            }
-        }
-    })
-}
-
 // let userCont = document.getElementById('existUser');
 // document.getElementById('signForm').onsubmit = (e) => {
 //     e.preventDefault();
