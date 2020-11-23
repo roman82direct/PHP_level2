@@ -80,31 +80,27 @@
         </div>
     </div>
 </div>
+
 <div class="gallery clearfix">
-    <div class="galh">Our Gallery</div>
-    <div class="galbl">
-        <div class="galitem">
-            <img src="img/Assasin.jpg" alt="Assasin">
-            <p>Assasin’s Creed: Rogue</p>
-            <a href="card.php" class="buy">Buy</a>
+    <div class="galh">Галерея</div>
+        <div class="galbl">
+            {% for good in goods %}
+            <div class="galitem">
+                <img src="catalogImg/{{good.catalogImg}}">
+                <h3>{{ good.name }}</h3>
+                <p class="itemId">{{ good.id_good }}</p>
+                <p class="itemprice">{{ good.price }}$.</p>
+                {% if user %}
+                <form action="index.php?act=buy&c=catalog" method="post">
+                    <input type="hidden" name="add" value="{{ good.id_good }}">
+                    <input type="submit" value="В корзину" class="btn btn-primary">
+                </form>
+                {% endif %}
+            </div>
+            {% endfor %}
         </div>
-        <div class="galitem">
-            <img src="img/tombrider.jpg" alt="Tombrider">
-            <p>Tomb Raider</p>
-            <a href="#" class="buy">Buy</a>
-        </div>
-        <div class="galitem">
-            <img src="img/ryse.jpg" alt="Ryse">
-            <p>Ryse: Son Of Rome</p>
-            <a href="#" class="buy">Buy</a>
-        </div>
-        <div class="galitem">
-            <img src="img/warcraft.jpg" alt="Warcraft">
-            <p>World Of Warcraft:<br>Wrath Of The Linch King</p>
-            <a class="awar buy" href="#">Buy</a>
-        </div>
-    </div>
 </div>
+
 <div class="testimon">
     <p class="testp">Testimonial</p>
     <img class="kav" src="img/kav.png" alt="kav">
