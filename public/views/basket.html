@@ -1,11 +1,11 @@
 {% extends 'base.html' %}
 
 {% block content %}
+<div class="container">
 <h1>Корзина</h1>
 {% if goods %}
-
 <form action="index.php?act=clear&c=basket" method="post">
-    <input type="submit" value="Отчистить корзину" class="btn btn-default"> <br>
+    <input type="submit" value="Удалить товары из корзины" class="btn btn-default"> <br>
 </form>
 
 <table class="table table-condensed">
@@ -68,4 +68,5 @@
 </tbody>
 </table>
 {% endif %}
+</div>
 {% endblock %}

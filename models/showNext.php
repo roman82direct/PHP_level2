@@ -1,0 +1,1 @@
+<?phprequire_once '../config/DB.php';require_once '../controllers/C_Catalog.php';require_once '../controllers/C_Basket.php';        $show = new C_Catalog();        $show->showNext();

@@ -1,0 +1,16 @@
+<!--    <div class="galbl">-->
+        {% for good in goods %}
+        <div class="galitem">
+            <img src="catalogImg/{{good.catalogImg}}">
+            <h3>{{ good.name }}</h3>
+            <p class="itemId">{{ good.id_good }}</p>
+            <p>{{ good.price }}p.</p>
+            {% if user %}
+            <form action="index.php?act=buy&c=catalog" method="post">
+                <input type="hidden" name="add" value="{{ good.id_good }}">
+                <input type="submit" value="В корзину" class="btn btn-primary">
+            </form>
+            {% endif %}
+        </div>
+        {% endfor %}
+<!--    </div>-->

@@ -10,7 +10,8 @@
         <div class="galitem">
             <img src="catalogImg/{{good.catalogImg}}">
             <h3>{{ good.name }}</h3>
-            <p>{{ good.price }}p.</p>
+            <p class="itemId">{{ good.id_good }}</p>
+            <p class="itemprice">{{ good.price }}$.</p>
         {% if user %}
           <form action="index.php?act=buy&c=catalog" method="post">
               <input type="hidden" name="add" value="{{ good.id_good }}">
@@ -23,7 +24,7 @@
   <div id="showContent" class="galbl"></div>
 
 </div>
-<a href="#" id="showMore" class="show">Показать еще игры...</a>
+<a href="#" id="showMore" class="show">Показать ещё...</a>
 {% include "contact.tmpl" %}
 {% endblock %}
 

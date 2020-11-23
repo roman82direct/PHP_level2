@@ -11,6 +11,7 @@
 
   <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;600;700;800;900&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.1/css/all.css" integrity="sha384-xxzQGERXS00kBmZW/6qxqJPyxW3UR0BPsL4c8ILaIWXva5kFi7TxkIIaMiKtqV1Q" crossorigin="anonymous">
   <link href="css/bootstrap.css" rel="stylesheet">
   <link href="css/starter-template.css" rel="stylesheet">
   <link href="css/style.css" rel="stylesheet">
@@ -43,15 +44,17 @@
                     <li class=""><a href="index.php#serv">Сервис</a></li>
                     <li class=""><a href="index.php#team">Команда</a></li>
                     <li {% if catalog %} class="active" {% endif %}><a href="index.php?act=view&c=catalog">Каталог</a></li>
-                    <li {% if basket %} class="active" {% endif %}><a href="index.php?act=view&c=basket">Корзина ({{ goodsInBasket }})</a></li>
                 </ul>
+
           {% if user %}
           <ul class="nav navbar-nav  navbar-right">
-              <li {% if username %} class="active" {% endif %}><a href="index.php?act=logout&c=user">Выход ({{ user.name }})</a></li>
+              <li {% if basket %} class="active" {% endif %}><a href="index.php?act=view&c=basket">Корзина ({{ goodsInBasket }})</a></li>
+              <li {% if username %} class="active" {% endif %}><a href="index.php?act=logout&c=user">Выход ({{ user.name }}) <i class="fas fa-door-open"></i></a></li>
           </ul>
           {% else %}
           <ul class="nav navbar-nav  navbar-right">
-              <li {% if username %} class="active" {% endif %}><a href="index.php?act=login&c=user">Вход</a></li>
+              <li {% if basket %} class="active" {% endif %}><a href="index.php?act=view&c=basket">Корзина ({{ goodsInBasket }}) <i class="fas fa-shopping-cart"></i></a></li>
+              <li {% if username %} class="active" {% endif %}><a href="index.php?act=login&c=user">Вход <i class="fas fa-door-open"></i></a></li>
           </ul>
           {% endif %}
         </div>
@@ -62,5 +65,6 @@
     <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
     <script src="js/jquery-1.10.2.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
+    <script src="js/ajax.js"></script>
   </body>
 </html>

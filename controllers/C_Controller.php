@@ -13,7 +13,6 @@ abstract class C_Controller
 	{
 		$this->before();
 		$this->$action();   //$this->action_index
-
 	}
 	
 	//

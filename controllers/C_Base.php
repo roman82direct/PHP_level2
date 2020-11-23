@@ -1,4 +1,6 @@
 <?php
+require_once '../controllers/C_Controller.php';
+//require_once '../vendor/twig/twig/src/Loader/FilesystemLoader.php';
 //
 // Базовый контроллер сайта.
 //
@@ -8,10 +10,8 @@ abstract class C_Base extends C_Controller
 	protected $content;		// содержание страницы
 
 
-	protected function before()
-	{
+	protected function before(){
 		$this->title = 'Gamers |';
-
 	}
 	
 	protected function render($template, $args){
