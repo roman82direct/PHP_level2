@@ -42,7 +42,7 @@ class C_User extends C_Base
 	}
 
 	public function action_login(){
-    	$this->title .= ' :Вход';
+    	$this->title .= ' Вход';
 		if($this->isPost()){
 			$user = new M_User();
 			if ($user->login($_POST['userlogin'], $_POST['userpassword'])){
@@ -64,7 +64,7 @@ class C_User extends C_Base
 	}	
 	
 	public function action_registration(){
-    	$this->title .= ' :Регистрация нового пользователя';
+    	$this->title .= ' Регистрация нового пользователя';
 		
 		if($this->isPost()){
 			$user = new M_User();
