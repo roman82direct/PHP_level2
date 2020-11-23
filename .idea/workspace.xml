@@ -20,7 +20,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7d4d114b-5817-4670-b0ff-62962a654961" name="Default Changelist" comment="styles done">
-      <change beforePath="$PROJECT_DIR$/controllers/C_Index.php" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/C_Index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/adminGoods.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controllers/C_Catalog.php" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/C_Catalog.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/showNext.php" beforeDir="false" afterPath="$PROJECT_DIR$/models/showNext.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/ajax.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/ajax.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/views/admin.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/views/admin.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/views/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/views/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/views/catalogShowNext.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/views/render4.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/views/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/views/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -51,20 +59,20 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/public/views" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/models" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\OpenServer\OpenServer\domains\PHPlevel2\PHP_level2\public" />
+      <recent name="C:\OpenServer\OpenServer\domains\PHPlevel2\PHP_level2\config" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\OpenServer\OpenServer\domains\PHPlevel2\PHP_level2\models" />
       <recent name="C:\OpenServer\OpenServer\domains\PHPlevel2\PHP_level2\public\views" />
       <recent name="C:\OpenServer\OpenServer\domains\PHPlevel2\PHP_level2\controllers" />
       <recent name="C:\OpenServer\OpenServer\domains\PHPlevel2\PHP_level2\public\js" />
       <recent name="C:\OpenServer\OpenServer\domains\Project1FW\public" />
-      <recent name="C:\OpenServer\OpenServer\domains\Project1FW\views" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\OpenServer\OpenServer\domains\PHPlevel2\PHP_level2\public" />
-      <recent name="C:\OpenServer\OpenServer\domains\PHPlevel2\PHP_level2\config" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -81,7 +89,8 @@
       <workItem from="1605774005721" duration="19578000" />
       <workItem from="1605861331592" duration="10665000" />
       <workItem from="1605895651650" duration="12865000" />
-      <workItem from="1606158943730" duration="4247000" />
+      <workItem from="1606158943730" duration="5488000" />
+      <workItem from="1606164690047" duration="2676000" />
     </task>
     <task id="LOCAL-00001" summary="styles done">
       <created>1605781741304</created>

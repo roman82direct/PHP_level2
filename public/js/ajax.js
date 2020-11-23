@@ -1,3 +1,4 @@
+// отработка показа доп карточек в галерее
 let showbutton = document.getElementById('showMore');
 let cont = document.getElementById('showContent');
 let textId = document.getElementsByClassName('itemId');
@@ -17,6 +18,26 @@ showbutton.onclick = (event) => {
                 showbutton.innerText = 'Все товары загружены';
                 showbutton.style.color = 'red';
                 showbutton.onclick = null;
+            }
+        }
+    })
+}
+
+// показ инфо в админке
+let admButGoods = document.getElementById('admGoods');
+let admContGoods = document.getElementById('showGoods');
+admButGoods.onclick = (event) => {
+    event.preventDefault();
+    $.ajax({
+        url: '../models/adminGoods.php',
+        method: 'GET',
+        dataType: 'html',
+        data: "next=1",
+        success: function(html){
+            if (html){
+                admContGoods.innerHTML += html;
+            } else {
+                admContGoods.innerText = 'Ошибка загрузки';
             }
         }
     })

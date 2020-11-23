@@ -6,6 +6,15 @@
     {% if admin %}
         <h1>АДМИНКА</h1>
         <p>Добро пожаловать, {{ name }}</p>
+
+    <button id="admGoods">Загрузить товары</button>
+    <button id="admOrders">Просмотреть заказы</button>
+
+    <div id="showGoods" class=""></div>
+    <div id="showOrders" class=""></div>
+
+
+
     {% else %}
         <p>У Вас нет прав администратора</p>
     {% endif %}
