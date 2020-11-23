@@ -533,7 +533,9 @@ input[type="text"]:focus {
     font-size: 20px !important;
     font-weight: 600 !important;
 }
-
+.itemId {
+    display: none;
+}
 /*.galitem a {*/
 /*    text-decoration: none;*/
 /*    width: 130px;*/
