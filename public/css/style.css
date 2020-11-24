@@ -261,6 +261,13 @@ input[type="text"]:focus {
     letter-spacing: 0.1px;
     color: black;
 }
+.nodisplay{
+    visibility: hidden;!important;
+}
+
+.admOrder{
+    padding: 20px;
+}
 .firstdisp {
     margin: 0 auto;
     width: 100%;
@@ -529,9 +536,9 @@ input[type="text"]:focus {
     text-align: center;
 }
 .itemprice {
-    color: red !important;
-    font-size: 20px !important;
-    font-weight: 600 !important;
+    color: red;!important;
+    font-size: 20px;!important;
+    font-weight: 600;!important;
 }
 .itemId {
     display: none;
@@ -556,8 +563,7 @@ input[type="text"]:focus {
 
 .galitem a:hover {
     box-shadow: 1px 1px 3px black;
-    te
-}
+    }
 
 .galitem a:active {
     box-shadow: none;
@@ -1150,7 +1156,7 @@ fieldset .contformtxt:focus,
     max-width: 1922px;
     height: 71px;
     background-color: #000000;
-    margin-top: -71px;
+    margin-top: 0px;
     display: flex;
     justify-content: center;
 }

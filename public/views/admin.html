@@ -4,15 +4,13 @@
 <div class="container">
 
     {% if admin %}
-        <h1>АДМИНКА</h1>
+        <h1>Админка</h1>
         <p>Добро пожаловать, {{ name }}</p>
 
     <button id="admGoods">Загрузить товары</button>
     <button id="admOrders">Просмотреть заказы</button>
 
     <div id="showAdm" class="galbl"></div>
-
-
 
     {% else %}
         <p>У Вас нет прав администратора</p>
@@ -23,6 +21,8 @@
     let admButGoods = document.getElementById('admGoods');
     let admContShow = document.getElementById('showAdm');
     admButGoods.onclick = (event) => {
+        admContShow.removeAttribute('class', '');
+        admContShow.setAttribute('class', "galbl");
         admContShow.innerHTML = '';
         event.preventDefault();
         $.ajax({
@@ -42,6 +42,8 @@
 
     let admButOrders = document.getElementById('admOrders');
     admButOrders.onclick = (event) => {
+        // admContShow.removeAttribute('class', 'galbl');
+        // admContShow.setAttribute('class', "orders");
         admContShow.innerHTML = '';
         event.preventDefault();
 

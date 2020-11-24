@@ -7,10 +7,10 @@ class C_Admin extends C_Base
     {
         $this->title .= ' Админка';
 
-        $userId = $_SESSION['user']['id'];
-        $admin = db::getRow('SELECT * FROM user_role where id_user = :userId', ['userId' => $userId]);
+//        $userRole = $_SESSION['user']['role'];
+//        $admin = db::getRow('SELECT * FROM user_role where id_user = :userId', ['userId' => $userId]);
 
-        $this->render('admin.html', ['title' => $this->title,  'admin' => $admin['id_role'], 'name' => $_SESSION['user']['login']]);
+        $this->render('admin.html', ['title' => $this->title,  'admin' => $_SESSION['user']['role'], 'name' => $_SESSION['user']['name']]);
     }
 
     public function action_view()
