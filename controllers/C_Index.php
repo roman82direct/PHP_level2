@@ -7,6 +7,7 @@ class C_Index extends C_Base
 	//
 	
 	public function action_index(){
+
 		$this->title .= ' Главная';
 
         $goods = db::getRows('SELECT * FROM goods limit 4', []);

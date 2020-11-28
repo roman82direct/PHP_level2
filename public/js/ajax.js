@@ -6,11 +6,14 @@ let textId = document.getElementsByClassName('itemId');
 showbutton.onclick = (event) => {
     event.preventDefault();
         jQuery.ajax({   //$.ajax
-            // url: '../controllers/C_Catalog.php',
         url: '../models/showNext.php',
         method: 'GET',
         dataType: 'html',
-        data: "next=" + textId[textId.length - 1].innerText,
+        data: {
+            next: textId[textId.length - 1].innerText,
+            user: showbutton.dataset.user
+        },
+        // data: "next=" + textId[textId.length - 1].innerText +
         success: function(html){
             if (html){
                 cont.innerHTML += html;
