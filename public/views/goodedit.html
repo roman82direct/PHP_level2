@@ -3,64 +3,42 @@
 {% block content %}
 <div class="container">
 
-    {% if admin %}
-        <h1>Админка</h1>
-        <p>Добро пожаловать, {{ name }}</p>
+    <h1>Редактор товаров</h1>
+    <p>Товар ID= {{id_good}} </p>
 
-    <button id="admGoods">Загрузить товары</button>
-    <button id="admOrders">Просмотреть заказы</button>
+    <form method="post">
+        <label for="title">Наименование</label>
+        <input type="text" id="title" name="title" value="{{name}}">
+        <label for="price">Цена</label>
+        <input type="text" id="price" name="price" value="{{price}}">
+        <br>
+        <br>
+        <label for="discr">Описание</label> <br>
+        <textarea name="discr" id="discr" cols="60" rows="10">{{ discr }}</textarea>
+        <br>
+        <br>
 
-    <div id="showAdm" class="galbl"></div>
+        <label for="admimg">Фото каталога: {{ img }}</label><br>
+        <img id="admimg" class="admimg" src="catalogImg/{{img}}">
+        <form action="../../models/downloader.php" method="post" enctype="multipart/form-data">
+            <h4>Изменить картинку</h4>
+            <input type="file" name="img" accept="image/jpeg, image/png">
+            <input class="btn btn-primary" type="submit" value="Изменить">
+        </form>
+        <br>
 
-    {% else %}
-        <p>У Вас нет прав администратора</p>
-    {% endif %}
+    </form>
+
+    <form action="index.php?act=___&c=___" method="post">
+        <input type="submit" value="Сохранить" class="btn btn-primary">
+        <input type="submit" value="Удалить товар из каталога" class="btn btn-primary">
+    </form>
+    <br>
+
 
 </div>
 <script>
-    let admButGoods = document.getElementById('admGoods');
-    let admContShow = document.getElementById('showAdm');
-    admButGoods.onclick = (event) => {
-        admContShow.removeAttribute('class', '');
-        admContShow.setAttribute('class', "galbl");
-        admContShow.innerHTML = '';
-        event.preventDefault();
-        $.ajax({
-            url: '../models/admin.php',
-            method: 'GET',
-            dataType: 'html',
-            data: "goods=1",
-            success: function(html){
-                if (html){
-                    admContShow.innerHTML = html;
-                } else {
-                    admContShow.innerText = 'Ошибка загрузки';
-                }
-            }
-        })
-    }
 
-    let admButOrders = document.getElementById('admOrders');
-    admButOrders.onclick = (event) => {
-        // admContShow.removeAttribute('class', 'galbl');
-        // admContShow.setAttribute('class', "orders");
-        admContShow.innerHTML = '';
-        event.preventDefault();
-
-        $.ajax({
-            url: '../models/admin.php',
-            method: 'GET',
-            dataType: 'html',
-            data: "orders=1",
-            success: function(html){
-                if (html){
-                    admContShow.innerHTML = html;
-                } else {
-                    admContShow.innerText = 'Ошибка загрузки';
-                }
-            }
-        })
-    }
 </script>
 {% endblock %}
 

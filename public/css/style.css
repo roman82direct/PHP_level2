@@ -1332,3 +1332,9 @@ padding: 10px;
     cursor:pointer;
     display:none; /* в oбычнoм сoстoянии её нет) */
 }
+
+.admimg{
+    width: 100px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}

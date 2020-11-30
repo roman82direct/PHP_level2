@@ -1,16 +1,17 @@
 <?php
 
-class C_Admin extends C_Base
+class C_Goodedit extends C_Base
 {
 
     public function action_index()
     {
-        $this->title .= ' Админка';
+        $this->title .= ' Редактор товаров';
 
 //        $userRole = $_SESSION['user']['role'];
-//        $admin = db::getRow('SELECT * FROM user_role where id_user = :userId', ['userId' => $userId]);
+        $good = db::getRow('SELECT * FROM goods where id_good = :goodId', ['goodId' => $_GET['id_good']]);
 
-        $this->render('admin.html', ['title' => $this->title,  'admin' => $_SESSION['user']['role'], 'name' => $_SESSION['user']['name']]);
+        $this->render('goodedit.html', ['title' => $this->title,  'id_good' => $good['id_good'], 'name' => $good['name'],
+            'price' => $good['price'], 'img' => $good['catalogImg'], 'discr' => $good['discription']]);
     }
 
     public function action_view()
