@@ -17,17 +17,17 @@
         <textarea name="discr" id="discr" cols="60" rows="10">{{ discr }}</textarea>
         <br>
         <br>
-
-        <label for="admimg">Фото каталога: {{ img }}</label><br>
-        <img id="admimg" class="admimg" src="catalogImg/{{img}}">
-        <form action="../../models/downloader.php" method="post" enctype="multipart/form-data">
-            <h4>Изменить картинку</h4>
-            <input type="file" name="img" accept="image/jpeg, image/png">
-            <input class="btn btn-primary" type="submit" value="Изменить">
-        </form>
-        <br>
-
     </form>
+
+    <form action="../models/downloader.php" method="post" enctype="multipart/form-data">
+    <label for="admimg">Фото каталога: {{ img }}</label><br>
+    <img id="admimg" class="admimg" src="catalogImg/{{img}}">
+        <h4>Изменить картинку</h4>
+        <input type="file" name="img" accept="image/jpeg, image/png">
+        <input type="hidden" name="id_good" value="{{id_good}}">
+        <input class="btn btn-primary" type="submit" value="Изменить картинку">
+    </form>
+    <br>
 
     <form action="index.php?act=___&c=___" method="post">
         <input type="submit" value="Сохранить" class="btn btn-primary">
