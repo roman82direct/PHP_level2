@@ -6,36 +6,34 @@
     <h1>Редактор товаров</h1>
     <p>Товар ID= {{id_good}} </p>
 
-    <form method="post">
+    <form action="../models/save.php" method="post">
+        <input type="text" id="id" name="googId" value="{{id_good}}">
         <label for="title">Наименование</label>
         <input type="text" id="title" name="title" value="{{name}}">
         <label for="price">Цена</label>
-        <input type="text" id="price" name="price" value="{{price}}">
+        <input style="width: 50px" type="text" id="price" name="price" value="{{price}}">
         <br>
         <br>
         <label for="discr">Описание</label> <br>
-        <textarea name="discr" id="discr" cols="60" rows="10">{{ discr }}</textarea>
+        <textarea name="discr" id="discr" cols="62" rows="10">{{ discr }}</textarea>
         <br>
         <br>
-    </form>
-
-    <form action="../models/downloader.php" method="post" enctype="multipart/form-data">
-    <label for="admimg">Фото каталога: {{ img }}</label><br>
-    <img id="admimg" class="admimg" src="catalogImg/{{img}}">
-        <h4>Изменить картинку</h4>
-        <input type="file" name="img" accept="image/jpeg, image/png">
-        <input type="hidden" name="id_good" value="{{id_good}}">
-        <input class="btn btn-primary" type="submit" value="Изменить картинку">
-    </form>
-    <br>
-
-    <form action="index.php?act=___&c=___" method="post">
         <input type="submit" value="Сохранить" class="btn btn-primary">
-        <input type="submit" value="Удалить товар из каталога" class="btn btn-primary">
+<!--        <input type="submit" value="Удалить товар из каталога" class="btn btn-primary">-->
     </form>
-    <br>
 
-
+    <form style="margin-top: 30px; width: 40%; padding: 20px; border: 1px solid grey" action="../models/M_Admin.php" method="post" enctype="multipart/form-data">
+    <label for="admimg">Фото каталога: {{ img }}</label><br>
+        <div class="imgedit">
+            <img id="admimg" class="admimg" src="catalogImg/{{img}}">
+                <div>
+                    <h4>Изменить картинку</h4>
+                    <input type="file" name="img" accept="image/jpeg, image/png">
+                    <input type="hidden" name="id_good" value="{{id_good}}">
+                    <input style="margin-top: 60px" class="btn btn-primary" type="submit" value="Изменить картинку">
+                </div>
+        </div>
+    </form>
 </div>
 <script>
 
