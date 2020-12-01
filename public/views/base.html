@@ -48,9 +48,9 @@
 
           {% if user %}
           <ul class="nav navbar-nav  navbar-right">
-              <li {% if basket %} class="active" {% endif %}><a href="index.php?act=view&c=basket">Корзина ({{ goodsInBasket }})</a></li>
+              <li {% if basket %} class="active" {% endif %}><a href="index.php?act=view&c=basket">Корзина ({{ goodsInBasket }}) <i class="fas fa-shopping-cart"></i></a></li>
               <li {% if username %} class="active" {% endif %}><a href="index.php?act=logout&c=user">Выход ({{ user.name }}) <i class="fas fa-door-open"></i></a></li>
-              <li ><a href="index.php?act=view&c=admin">Админка {{ name }}</a></li>
+              <li ><a href="index.php?act=view&c=admin">Админка {{ name }} <i class="fa fa-cogs" aria-hidden="true"></i></a></li>
           </ul>
           {% else %}
           <ul class="nav navbar-nav  navbar-right">

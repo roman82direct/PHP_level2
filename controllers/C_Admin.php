@@ -51,8 +51,4 @@ class C_Admin extends C_Base {
         }
         $this->action_index();
     }
-
-    public function action_loadnewGood(){
-
-    }
 }

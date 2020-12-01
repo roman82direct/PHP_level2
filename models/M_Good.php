@@ -18,7 +18,7 @@ class M_Good {
     }
 
     public function save(){
-
+// сделано в M_Admin
     }
 
     public function update(){

@@ -9,17 +9,14 @@ if (isset($_GET['goods'])) {
     foreach ($goods as $val) {
         echo
             "<div class='galitem'>" .
-            "<img src=" . "catalogImg/" . $val['catalogImg'] . ">" .
-            "<h3>" . $val['name'] . "</h3>" .
-            "<p class='itemId'>" . $val['id_good'] . "</p>" .
-            "<p class='itemprice'>" . $val['price'] . "$" . "</p>" .
+                "<img src=" . "catalogImg/" . $val['catalogImg'] . ">" .
+                "<h3>" . $val['name'] . "</h3>" .
+                "<p class='itemId'>" . $val['id_good'] . "</p>" .
+                "<p class='itemprice'>" . $val['price'] . "$" . "</p>" .
 
-            "<form data-id='".$val['id_good']."' action='index.php?act=view&c=goodedit&id_good=".$val['id_good']."' method='post'>".
-//              "<input type='hidden' name='add' value='"..'">".
-            "<input type='submit' value='Редактировать' class='btn btn-primary'>".
-            "</form>".
-
-//            "<button data-id='". $val['id_good'] ."'>Редактировать</button>" .
+                "<form data-id='".$val['id_good']."' action='index.php?act=view&c=goodedit&id_good=".$val['id_good']."' method='post'>".
+                "<input type='submit' value='Редактировать' class='btn btn-primary'>".
+                "</form>".
             "</div>";
     }
 }//else echo "ID не передан";
@@ -34,13 +31,13 @@ if (isset($_GET['orders'])) {
 
         echo
             "<div class='admOrder'>" .
-            "<h4> Заказ №" . $val['id_order'] . "</h4>" .
-            "<p class=''>Дата: " . $val['datetime_create'] . "</p>" .
-            "<p class=''>Адрес доставки: " . $val['destination'] . "</p>" .
-            "<p class=''>ID пользователя: " . $val['id_user'] . "</p>" .
-            "<p class=''>Имя пользователя: " . $users['user_name'] . "</p>" .
-            "<p class=''>Сумма заказа: " . $val['amount'] . "$</p>" .
-            "<button id='".$val['id_order']."'>"."Редактировать</button>" .
+                "<h4> Заказ №" . $val['id_order'] . "</h4>" .
+                "<p class=''>Дата: " . $val['datetime_create'] . "</p>" .
+                "<p class=''>Адрес доставки: " . $val['destination'] . "</p>" .
+                "<p class=''>ID пользователя: " . $val['id_user'] . "</p>" .
+                "<p class=''>Имя пользователя: " . $users['user_name'] . "</p>" .
+                "<p class=''>Сумма заказа: " . $val['amount'] . "$</p>" .
+                "<button id='".$val['id_order']."'>"."Редактировать</button>" .
             "<hr> </div>";
     }
 }
