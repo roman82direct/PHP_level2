@@ -1,7 +1,7 @@
 <div class="contactpage">
     <p class="contus">Контакты</p>
 
-    <div class="contform">
+    <div id="" class="contform">
         <div class="contbl1">
             <p class="getin">Get in touch with us</p>
             <div class="allcont">Lorem ipsum dolor sit amet, consectetur adipisicing elit,sheets
@@ -19,12 +19,16 @@
             </div>
 
         </div>
-        <form action='index.php?act=regExp&c=validator'>
+        <form action='index.php?act=regExp&c=validator' method="post">
             <fieldset style="border: none">
-                <input type="text" name="name" class="contformtxt" placeholder="Ваше имя">
-                <input type="text" name="email" class="contformtxt" placeholder="Email">
+                <label for="name">{{mesName}}</label>
+                <input id="name" type="text" name="name" class="contformtxt" placeholder="Ваше имя" value="{{name}}">
+                <label for="tel">{{mesTel}}</label>
+                <input id="tel" type="text" name="tel" class="contformtxt" placeholder="Tel" value="{{tel}}">
+                <label for="mail">{{mesMail}}</label>
+                <input id="mail" type="text" name="email" class="contformtxt" placeholder="Email" value="{{mail}}">
                 <textarea class="message" name="message" placeholder="Сообщение"></textarea>
-                <input type="submit" class="contbutt" value="Отправить">
+                <input id="validBut" type="submit" class="contbutt" value="Отправить">
             </fieldset>
         </form>
     </div>
@@ -37,3 +41,33 @@
     <div class="footer">
         <p class="footertext">&copy; Historical Games. All rights reserved | Design by W3layouts</p>
     </div>
+
+<script>
+    // let validBut = document.getElementById('validBut');
+    // let validCont = document.getElementById('validCont');
+    // let name = document.getElementById('name');
+    // let mail = document.getElementById('mail');
+    // let tel = document.getElementById('tel');
+    //
+    // validBut.onclick = (event) => {
+    //     validCont.innerHTML = '';
+    //     event.preventDefault();
+    //     $.ajax({
+    //         url: '../models/M_Validator.php',
+    //         method: 'POST',
+    //         dataType: 'html',
+    //         data: {
+    //             name: name.innerText,
+    //             mail: mail.innerText,
+    //             tel: tel.innerText
+    //         },
+    //         success: function(html){
+    //             if (html){
+    //                 validCont.innerHTML = html;
+    //             } else {
+    //                 validCont.innerText = 'Ошибка загрузки';
+    //             }
+    //         }
+    //     })
+    // }
+</script>
