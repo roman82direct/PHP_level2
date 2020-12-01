@@ -21,7 +21,11 @@ class C_Admin extends C_Base {
     }
 
     public function action_changeImg(){
-
+        if ($this -> IsPost()){
+            $admin = new M_Admin($_POST['id_good'],'', '', '');
+            $admin->load_img();
+            header('Location: ../public/index.php?act=view&c=goodedit&id_good='.$_POST['id_good']);
+        }
     }
 
     public function action_saveGood(){
