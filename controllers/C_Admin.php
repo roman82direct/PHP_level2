@@ -25,16 +25,20 @@ class C_Admin extends C_Base {
     }
 
     public function action_saveGood(){
-        echo $_POST['goodId'];
         if ($this -> IsPost()){
             $admin = new M_Admin($_POST['goodId'], $_POST['title'], $_POST['price'], $_POST['discr']);
-            $admin->saveGood();
+            $admin->save_good();
+            header('Location: ../public/index.php?act=view&c=goodedit&id_good='.$_POST['goodId']);
         }
-        $this->action_index();
+//        $this->action_index();
     }
 
     public function action_deleteGood(){
-
+        if ($this -> IsPost()){
+            $admin = new M_Admin($_POST['goodId'], $_POST['title'], $_POST['price'], $_POST['discr']);
+            $admin->delete_good();
+        }
+        $this->action_index();
     }
 
     public function action_loadnewGood(){

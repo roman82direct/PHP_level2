@@ -6,8 +6,8 @@
     <h1>Редактор товаров</h1>
     <p>Товар ID= {{id_good}} </p>
 
-    <form action="../models/save.php" method="post">
-        <input type="text" id="id" name="googId" value="{{id_good}}">
+    <form action="index.php?act=saveGood&c=admin" method="post">
+        <input type="hidden" id="id" name="goodId" value="{{id_good}}">
         <label for="title">Наименование</label>
         <input type="text" id="title" name="title" value="{{name}}">
         <label for="price">Цена</label>
@@ -22,7 +22,12 @@
 <!--        <input type="submit" value="Удалить товар из каталога" class="btn btn-primary">-->
     </form>
 
-    <form style="margin-top: 30px; width: 40%; padding: 20px; border: 1px solid grey" action="../models/M_Admin.php" method="post" enctype="multipart/form-data">
+    <form style="margin-top: 10px" action="index.php?act=deleteGood&c=admin" method="post">
+        <input type="hidden" id="id" name="goodId" value="{{id_good}}">
+        <input type="submit" value="Удалить товар из каталога" class="btn btn-primary">
+    </form>
+
+    <form style="margin-top: 30px; width: 40%; padding: 20px; border: 1px solid grey" action="../models/adminModels.php" method="post" enctype="multipart/form-data">
     <label for="admimg">Фото каталога: {{ img }}</label><br>
         <div class="imgedit">
             <img id="admimg" class="admimg" src="catalogImg/{{img}}">

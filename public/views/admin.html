@@ -26,7 +26,7 @@
         admContShow.innerHTML = '';
         event.preventDefault();
         $.ajax({
-            url: '../models/M_Admin.php',
+            url: '../models/adminModels.php',
             method: 'GET',
             dataType: 'html',
             data: "goods=1",
@@ -48,7 +48,7 @@
         event.preventDefault();
 
         $.ajax({
-            url: '../models/admin.php',
+            url: '../models/adminModels.php',
             method: 'GET',
             dataType: 'html',
             data: "orders=1",
