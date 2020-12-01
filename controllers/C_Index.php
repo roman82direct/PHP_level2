@@ -2,10 +2,7 @@
 
 class C_Index extends C_Base
 {
-	//
-	// Конструктор.
-	//
-	
+
 	public function action_index(){
 
 		$this->title .= ' Главная';

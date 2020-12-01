@@ -14,7 +14,7 @@ class M_Validator
         $this->errors =[
             'name'=> 'Имя должно содержать только буквы',
             'tel'=> 'Телефон в формате +7(000)000-0000',
-            'mail'=>'E-mail в формате mymail@mail.ru, или my.mail@mail.ru, или my-mail@mail.ru'
+            'mail'=>'E-mail в формате mymail@mail.ru'
         ];
     }
 

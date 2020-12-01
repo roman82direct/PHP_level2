@@ -28,7 +28,8 @@
                 <label for="mail">{{mesMail}}</label>
                 <input id="mail" type="text" name="email" class="contformtxt" placeholder="Email" value="{{mail}}">
                 <textarea class="message" name="message" placeholder="Сообщение"></textarea>
-                <input id="validBut" type="submit" class="contbutt" value="Отправить">
+                <input type="submit" class="contbutt" value="Отправить">
+<!--                <input id="validBut" type="button" value="Button">-->
             </fieldset>
         </form>
     </div>
@@ -42,27 +43,49 @@
         <p class="footertext">&copy; Historical Games. All rights reserved | Design by W3layouts</p>
     </div>
 
+
+<div {%if error%} style="display: block" {%endif%} id="modalOrder" class="modalOrder">
+    <div id="modalOrderContent" class="modalOrder_content">
+        <span id="closeModalOrder" class="close_modal_order">X</span>
+        <p>{{date}}</p>
+        <br>
+        <h4 class="orderTitle">{{mesName}}</h4>
+        <h4 class="orderTitle">{{mesTel}}</h4>
+        <h4 class="orderTitle">{{mesMail}}</h4>
+
+        <div class="yesNo">
+            <span id="ok" class="ok">OK</span>
+<!--            <span id="cancel" class="cancel">ОТМЕНА</span>-->
+        </div>
+    </div>
+</div>
+
 <script>
-    // let validBut = document.getElementById('validBut');
-    // let validCont = document.getElementById('validCont');
-    // let name = document.getElementById('name');
-    // let mail = document.getElementById('mail');
-    // let tel = document.getElementById('tel');
-    //
+    let validBut = document.getElementById('validBut');
+    let validCont = document.getElementById('validCont');
+    let name = document.getElementById('name');
+    let mail = document.getElementById('mail');
+    let tel = document.getElementById('tel');
+
+    let modal = document.getElementById('modalOrder');
+    let closeModal = document.getElementById('closeModalOrder');
+    let ok = document.getElementById('ok')
+
     // validBut.onclick = (event) => {
     //     validCont.innerHTML = '';
     //     event.preventDefault();
     //     $.ajax({
-    //         url: '../models/M_Validator.php',
-    //         method: 'POST',
+    //         url: '../models/form.php',
+    //         method: 'GET',
     //         dataType: 'html',
     //         data: {
-    //             name: name.innerText,
-    //             mail: mail.innerText,
-    //             tel: tel.innerText
+    //             name: name.value,
+    //             mail: mail.value,
+    //             tel: tel.value
     //         },
     //         success: function(html){
     //             if (html){
+    //                 modal.style.display = 'block';
     //                 validCont.innerHTML = html;
     //             } else {
     //                 validCont.innerText = 'Ошибка загрузки';
@@ -70,4 +93,26 @@
     //         }
     //     })
     // }
+
+    ok.onclick = () => {
+    modal.style.display = 'none';
+    }
+    closeModal.onclick = function (){
+        modal.style.display = "none";
+    }
+    window.onclick = function(event) {
+        if (event.target == modal) {
+            modal.style.display = "none";
+        }
+    }
+    window.onkeydown = (event) => {
+        if (event.code == 'Enter' || event.code == 'NumpadEnter') {
+            closeModal.onclick();
+                // window.onkeydown = null;
+        } else if
+            (event.code == 'Escape') {
+            ok.onclick();
+        }
+    }
+
 </script>

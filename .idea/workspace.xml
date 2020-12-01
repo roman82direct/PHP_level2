@@ -19,10 +19,13 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7d4d114b-5817-4670-b0ff-62962a654961" name="Default Changelist" comment="validator: start">
-      <change afterPath="$PROJECT_DIR$/models/M_Validator.php" afterDir="false" />
+    <list default="true" id="7d4d114b-5817-4670-b0ff-62962a654961" name="Default Changelist" comment="form validator: done">
+      <change afterPath="$PROJECT_DIR$/public/css/modalstyles.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controllers/C_Index.php" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/C_Index.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/controllers/C_Validator.php" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/C_Validator.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/M_Admin.php" beforeDir="false" afterPath="$PROJECT_DIR$/models/M_Admin.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/views/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/views/base.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/views/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/views/contact.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -96,7 +99,7 @@
       <workItem from="1606737711049" duration="4839000" />
       <workItem from="1606742708887" duration="1303000" />
       <workItem from="1606806671501" duration="20664000" />
-      <workItem from="1606840467420" duration="6260000" />
+      <workItem from="1606840467420" duration="15537000" />
     </task>
     <task id="LOCAL-00001" summary="styles done">
       <created>1605781741304</created>
@@ -147,7 +150,14 @@
       <option name="project" value="LOCAL" />
       <updated>1606832037352</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="form validator: done">
+      <created>1606847063792</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1606847063792</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -173,7 +183,9 @@
     <MESSAGE value="admin: loadImg good done" />
     <MESSAGE value="admin: done (add, change, remove, loadimg) GOOD" />
     <MESSAGE value="validator: start" />
-    <option name="LAST_COMMIT_MESSAGE" value="validator: start" />
+    <MESSAGE value="validator: done" />
+    <MESSAGE value="form validator: done" />
+    <option name="LAST_COMMIT_MESSAGE" value="form validator: done" />
   </component>
   <component name="WindowStateProjectService">
     <state x="667" y="162" key="#PHP" timestamp="1605633080496">
@@ -188,14 +200,14 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="690" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1606738840851" />
-    <state x="677" y="242" key="NewPhpClassDialog" timestamp="1606841525866">
+    <state x="677" y="242" key="NewPhpClassDialog" timestamp="1606847628187">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="677" y="242" key="NewPhpClassDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1606841525866" />
-    <state x="795" y="442" key="NewPhpFileDialog" timestamp="1606843950207">
+    <state x="677" y="242" key="NewPhpClassDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1606847628187" />
+    <state x="795" y="442" key="NewPhpFileDialog" timestamp="1606847640047">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="795" y="442" key="NewPhpFileDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1606843950207" />
+    <state x="795" y="442" key="NewPhpFileDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1606847640047" />
     <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1606832159290">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
