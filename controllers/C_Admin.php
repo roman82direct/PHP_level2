@@ -20,6 +20,13 @@ class C_Admin extends C_Base {
 
     }
 
+    public function action_newGood(){
+        if ($this -> IsPost()){
+            $admin = new M_Admin('', $_POST['title'], $_POST['price'], $_POST['discr']);
+            $admin->new_good();
+        }
+    }
+
     public function action_changeImg(){
         if ($this -> IsPost()){
             $admin = new M_Admin($_POST['id_good'],'', '', '');

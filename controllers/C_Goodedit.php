@@ -18,4 +18,10 @@ class C_Goodedit extends C_Base
     {
         $this->action_index();
     }
+
+    public function action_newgood()
+    {
+        $this->title .= ' Новый товар';
+        $this->render('admnewgood.html',['title' => $this->title]);
+    }
 }
