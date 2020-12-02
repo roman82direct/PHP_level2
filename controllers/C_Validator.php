@@ -18,5 +18,4 @@ class C_Validator extends C_Base
             'name' => $_POST['name'], 'tel' => $_POST['tel'], 'mail' => $_POST['email'], 'error'=>$res[0].$res[1].$res[2],
             'date'=>date('d-M-Y;  H-i')]);
     }
-
 }

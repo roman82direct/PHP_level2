@@ -137,59 +137,93 @@ element.style {
     color: whitesmoke;
 }
 
-.searchbar {
-    width: 230px;
-    height: 38px;
-    font-family: "Roboto Condensed";
-    color: #ffffff;
-    font-size: 17px;
-    font-weight: 400;
+.btn-search {
+    background-color: transparent;
+    border: none;
+    color: #fafafa;
+    font-size: 1.2em;
+    position: absolute;
+    bottom: 5px;
+    right: 0px;
+    transition: 300ms;
 }
-
-.searchbar input[type="text"] {
-    color: #ffffff;
-    font-family: "Roboto Condensed";
-    font-size: 17px;
-    font-weight: 100;
-    line-height: 22.36px;
-    height: 38px;
-    width: 160px;
-    padding-left: 16px;
-    vertical-align: middle;
-    background: none;
-    border: 1px solid #ffffff;
-    border-right: none;
-    float: left;
-}
-
-.searchbar input[type="text"]::-webkit-input-placeholder {
-    /*Меняем цвет щрифта в placeholder*/
-    color: #ffffff;
-}
-
-input[type="text"]:focus {
-    letter-spacing: 0.36px;
-    outline: none;
-}
-
-.searchbtn {
-    height: 38px;
-    width: 50px;
-    border: 1px solid #ffffff;
-    background: none;
-    background-image: url(public/img/searchicon.png);
-    background-repeat: no-repeat;
-    background-position: center;
+.btn-search:hover{
+    color: #c7b299;
+    transform: scale(1.1);
     cursor: pointer;
 }
-
-.searchbtn:hover {
-    box-shadow: 1px 1px 2px black;
+.search-form{
+    position: relative;
+    margin-right: 50px;
+    height: 40px;
+    display: inline-block;
 }
-.searchbtn:focus {
+.search-field:focus{
     outline: none;
-    box-shadow: none;
 }
+.search-field {
+    box-sizing: border-box;
+    width: 200px;
+    color: #fafafa;
+    padding: 10px;
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid #fafafa;
+}
+
+/*.searchbar {*/
+/*    width: 230px;*/
+/*    height: 38px;*/
+/*    font-family: "Roboto Condensed";*/
+/*    color: #ffffff;*/
+/*    font-size: 17px;*/
+/*    font-weight: 400;*/
+/*}*/
+
+/*.searchbar input[type="text"] {*/
+/*    color: #ffffff;*/
+/*    font-family: "Roboto Condensed";*/
+/*    font-size: 17px;*/
+/*    font-weight: 100;*/
+/*    line-height: 22.36px;*/
+/*    height: 38px;*/
+/*    width: 160px;*/
+/*    padding-left: 16px;*/
+/*    vertical-align: middle;*/
+/*    background: none;*/
+/*    border: 1px solid #ffffff;*/
+/*    border-right: none;*/
+/*    float: left;*/
+/*}*/
+
+/*.searchbar input[type="text"]::-webkit-input-placeholder {*/
+/*    !*Меняем цвет щрифта в placeholder*!*/
+/*    color: #ffffff;*/
+/*}*/
+
+/*input[type="text"]:focus {*/
+/*    letter-spacing: 0.36px;*/
+/*    outline: none;*/
+/*}*/
+
+/*.searchbtn {*/
+/*    height: 38px;*/
+/*    width: 50px;*/
+/*    border: 1px solid #ffffff;*/
+/*    background: none;*/
+/*    background-image: url(public/img/searchicon.png);*/
+/*    background-repeat: no-repeat;*/
+/*    background-position: center;*/
+/*    cursor: pointer;*/
+/*}*/
+
+/*.searchbtn:hover {*/
+/*    box-shadow: 1px 1px 2px black;*/
+/*}*/
+/*.searchbtn:focus {*/
+/*    outline: none;*/
+/*    box-shadow: none;*/
+/*}*/
 .navbar-collapse{
     display: flex;
     justify-content: flex-start;!important;

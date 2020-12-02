@@ -47,7 +47,7 @@
 <div {%if error%} style="display: block" {%endif%} id="modalOrder" class="modalOrder">
     <div id="modalOrderContent" class="modalOrder_content">
         <span id="closeModalOrder" class="close_modal_order">X</span>
-        <p>{{date}}</p>
+        <p>Попытка отправки: {{date}}</p>
         <br>
         <h4 class="orderTitle">{{mesName}}</h4>
         <h4 class="orderTitle">{{mesTel}}</h4>
@@ -61,11 +61,11 @@
 </div>
 
 <script>
-    let validBut = document.getElementById('validBut');
-    let validCont = document.getElementById('validCont');
+    // let validBut = document.getElementById('validBut');
+    // let validCont = document.getElementById('validCont');
     let name = document.getElementById('name');
-    let mail = document.getElementById('mail');
-    let tel = document.getElementById('tel');
+    // let mail = document.getElementById('mail');
+    // let tel = document.getElementById('tel');
 
     let modal = document.getElementById('modalOrder');
     let closeModal = document.getElementById('closeModalOrder');
