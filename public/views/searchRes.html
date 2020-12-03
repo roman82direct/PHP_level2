@@ -15,7 +15,7 @@
             <p class="itemId">{{ good.id_good }}</p>
             <p class="itemprice">{{ good.price }}$.</p>
             {% if user %}
-            <form action="index.php?act=buy&c=catalog" method="post">
+            <form class="itemForm" action="index.php?act=buy&c=catalog" method="post">
                 <input type="hidden" name="add" value="{{ good.id_good }}">
                 <input type="submit" value="В корзину" class="btn btn-primary">
             </form>

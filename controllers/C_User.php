@@ -54,7 +54,7 @@ class C_User extends C_Base
 			}
 			
 		}
-		$this->render('login.html', ['title' => $this->title, 'username' => '1', 'admin' => $_SESSION['user']['role']]);
+		$this->render('login.html', ['title' => $this->title, 'username' => '1']);
 	
 	}	
 

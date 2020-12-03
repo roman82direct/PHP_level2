@@ -199,21 +199,21 @@ element.style {
 }
 
 .menu-link {
-    color: #8c8c8c;
-    font-family: "Roboto Condensed";
-    width: 73px;
-    font-size: 17px;
-    font-weight: 400;
+    /*color: #8c8c8c;*/
+    /*font-family: "Roboto Condensed";*/
+    /*width: 73px;*/
+    /*font-size: 17px;*/
+    /*font-weight: 400;*/
     text-decoration: none;
-    padding-bottom: 34px;
+    /*padding-bottom: 34px;*/
     /*border-bottom: 3px solid rgba(0, 0, 0, 0.0);*/
     /*Это прозрачная рамка (чтобы текст ниже не скакал при наведении на меню)*/
 }
 
 .menu-link:hover {
-    color: black;
-    border-bottom: 3px solid black;
-    letter-spacing: 0.36px;
+    /*color: black;*/
+    /*border-bottom: 3px solid black;*/
+    /*letter-spacing: 0.36px;*/
 }
 
 .userbar {
