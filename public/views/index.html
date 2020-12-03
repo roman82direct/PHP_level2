@@ -4,9 +4,9 @@
 <div class="firstdisp">
     <img class="firstImg" src="img/firstpagebkgr.jpg" alt="">
     <div class="firstTxt">
-    <p class="firstpage-text1">Nunc eget nibh</p>
+    <p class="firstpage-text1">Historical Games</p>
     <div class="imgtxt"><img src="img/imgtxt.svg" alt="block3"></div>
-    <h1 class="firstpage-h1">Morbi in nisl auctor</h1>
+    <h1 class="firstpage-h1">The Worldwide Best Games...</h1>
     <div class="social">
         <a href="#" class="sociallink"><img src="img/facebook-logo.png" alt="FB"></a>
         <a href="#" class="sociallink"><img src="img/twitter-logo-silhouette.png" alt="twitter"></a>
@@ -86,15 +86,35 @@
             {% for good in goods %}
             <div class="galitem">
                 <img src="catalogImg/{{good.catalogImg}}">
+                <div class="overlay" id="over_{{good.id_good}}"></div>
                 <h3>{{ good.name }}</h3>
                 <p class="itemId">{{ good.id_good }}</p>
                 <p class="itemprice">{{ good.price }}$.</p>
                 {% if user %}
-                <form action="index.php?act=buy&c=catalog" method="post">
+                <form class="itemForm" action="index.php?act=buy&c=catalog" method="post">
                     <input type="hidden" name="add" value="{{ good.id_good }}">
                     <input type="submit" value="В корзину" class="btn btn-primary">
                 </form>
                 {% endif %}
+
+                <!--Модальные окна на каждую карточку-->
+                <div style="display: none" id="modalGood_{{good.id_good}}" class="modalGood">
+                    <div id="modalGoodContent_{{good.id_good}}" class="modalGood_content">
+                        <span id="closeModalGood_{{good.id_good}}" class="close_modal_order">X</span>
+                        <br>
+                        <h4 class="orderTitle">Наименование: {{ good.name }}</h4>
+                        <h4 class="orderTitle">Цена: {{ good.price }}$</h4>
+                        <div class="modalInfo">
+                            <img src="catalogImg/{{good.catalogImg}}">
+                            <p>{{good.discription}}</p>
+                        </div>
+
+                        <div class="yesNo">
+                            <span id="ok_{{good.id_good}}" class="ok">OK</span>
+                            <!--            <span id="cancel" class="cancel">ОТМЕНА</span>-->
+                        </div>
+                    </div>
+                </div>
             </div>
             {% endfor %}
         </div>
@@ -256,5 +276,42 @@
     </div>
 </div>
   {% include "contact.html" %}
+
+<script>
+    function showModalGood(event){
+        var card = event.target;
+        var cardNum = card.id.split("_")[1];
+        var modal = document.getElementById('modalGood_' + cardNum);
+        var close = document.getElementById('closeModalGood_' + cardNum);
+        let ok = document.getElementById('ok_' + cardNum);
+        modal.style.display = 'block';
+
+        close.onclick = function(){
+            modal.style.display = 'none';
+        };
+
+        ok.onclick = function(){
+            modal.style.display = 'none';
+        };
+
+        window.onclick = function(event) {
+            if (event.target == modal) {
+                modal.style.display = "none";
+            }
+        }
+        window.onkeydown = (event) => {
+            if (event.code == 'Escape'){
+                close.onclick();
+            }
+        }
+    }
+
+    let item = document.getElementsByClassName('overlay');
+    for (var i = 0; i < item.length; i++){
+        item[i].onclick = showModalGood;
+        // item[i].addEventListener('click', showModalGood);
+    }
+
+</script>
 
 {% endblock %}

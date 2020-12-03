@@ -1,6 +1,6 @@
 <?php
 require_once('../models/M_Basket.php');
-require '../controllers/C_Base.php';
+//require '../controllers/C_Base.php';
 
 class C_Catalog extends C_Base
 {
@@ -10,7 +10,7 @@ class C_Catalog extends C_Base
         $this->title .= ' Каталог товаров';
         
         $goods = db::getRows('SELECT * FROM goods limit 4', []);
-        $this->render('Catalog.html', ['title' => $this->title, 
+        $this->render('Catalog.html', ['title' => $this->title,
         'catalog' => '1', 'goods' => $goods]);	
     }
     

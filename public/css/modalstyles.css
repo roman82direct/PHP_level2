@@ -65,3 +65,43 @@
     text-shadow: 1px 1px 1px black;
     box-shadow: 1px 1px 1px black;
 }
+
+/*modal for goods*/
+.modalGood {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0,0,0,0.6);
+    z-index: 1000;
+}
+.modalGood_content {
+    display: flex;
+    flex-direction: column;
+    background-color: #fefefe;
+    margin: 8% auto 0;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 50%;
+    min-height: 40%;
+    z-index: 99999;
+    align-items: center;
+    border-radius: 10px;
+}
+
+
+.modalInfo{
+    display: flex;
+    justify-content: space-between;
+}
+.modalInfo img{
+    max-height: 380px;
+}
+.modalInfo p{
+    margin-left: 15px;
+    text-align: left;
+}

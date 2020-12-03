@@ -21,11 +21,16 @@
   <component name="ChangeListManager">
     <list default="true" id="7d4d114b-5817-4670-b0ff-62962a654961" name="Default Changelist" comment="form validator: done">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controllers/C_Search.php" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/C_Search.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/M_Search.php" beforeDir="false" afterPath="$PROJECT_DIR$/models/M_Search.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controllers/C_Catalog.php" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/C_Catalog.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/adminModels.php" beforeDir="false" afterPath="$PROJECT_DIR$/models/adminModels.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/showNext.php" beforeDir="false" afterPath="$PROJECT_DIR$/models/showNext.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/modalstyles.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/modalstyles.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/views/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/views/header.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/views/searchRes.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/views/searchRes.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/ajax.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/views/Catalog.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/views/Catalog.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/views/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/views/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/views/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/views/contact.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/views/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/views/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -99,7 +104,7 @@
       <workItem from="1606742708887" duration="1303000" />
       <workItem from="1606806671501" duration="20664000" />
       <workItem from="1606840467420" duration="18729000" />
-      <workItem from="1606934562880" duration="10231000" />
+      <workItem from="1606934562880" duration="29154000" />
     </task>
     <task id="LOCAL-00001" summary="styles done">
       <created>1605781741304</created>

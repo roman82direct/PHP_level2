@@ -14,7 +14,7 @@ if (isset($_GET['goods'])) {
                 "<p class='itemId'>" . $val['id_good'] . "</p>" .
                 "<p class='itemprice'>" . $val['price'] . "$" . "</p>" .
 
-                "<form data-id='".$val['id_good']."' action='index.php?act=view&c=goodedit&id_good=".$val['id_good']."' method='post'>".
+                "<form class='itemForm' data-id='".$val['id_good']."' action='index.php?act=view&c=goodedit&id_good=".$val['id_good']."' method='post'>".
                 "<input type='submit' value='Редактировать' class='btn btn-primary'>".
                 "</form>".
             "</div>";

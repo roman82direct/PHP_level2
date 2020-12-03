@@ -115,10 +115,11 @@ element.style {
     width: 200px;
 }
 .telephone {
-
+    width: 12px;
 }
 
 .email {
+    width: 20px;
 }
 
 .tel,
@@ -328,10 +329,11 @@ element.style {
 }
 
 .abouttext1 {
+    font-family: Roboto;
     color: #f44336;
     font-size: 36px;
     font-weight: 500;
-    line-height: 36px;
+    line-height: 48px;
     margin-top: 95px;
 
 }
@@ -341,7 +343,7 @@ element.style {
     min-height: 155px;
     color: #999999;
     font-family: "Roboto Condensed";
-    font-size: 12px;
+    font-size: 14px;
     font-weight: 300;
     line-height: 24px;
     letter-spacing: 0.12px;
@@ -479,6 +481,7 @@ element.style {
     font-weight: 500;
     line-height: 48px;
     text-align: center;
+    margin-bottom: 40px;
 }
 
 .galbl {
@@ -494,11 +497,23 @@ element.style {
 .galitem {
     width: 270px;
     /*height: 481px;*/
-    background-color: #f7f7f7;
+    background-color: gainsboro;
     margin: 10px 15px 30px;
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+.overlay{
+    width: 271px;
+    height: 376px;
+    background-color: #5e5e5e;
+    opacity: 0.0;
+    position: absolute;
+    z-index: 1;
+}
+.overlay:hover{
+    opacity: 0.3;
+    cursor: pointer;
 }
 
 .galitem p {
@@ -512,7 +527,7 @@ element.style {
 .galitem h3 {
     color: red;
     font-size: 16px;
-    font-weight: 500;
+    font-weight: 600;
     line-height: 23.94px;
     text-transform: uppercase;
     text-align: center;
@@ -931,7 +946,7 @@ element.style {
 }
 
 .form {
-    margin: 0 auto 50px;
+    margin: 40px auto 50px;
     padding-top: 30px;
     width: 100%;
     height: 33%;
@@ -995,15 +1010,15 @@ element.style {
 }
 
 .contactpage {
-    margin: 90px auto 0;
+    margin: 40px auto 0;
     max-width: 1920px;
-    padding: 50px 0 90px;
+    padding: 0 0 90px;
 
 }
 
 .contus {
     text-align: center;
-    margin-bottom: 89px;
+    margin-bottom: 40px;
     color: #f44336;
     font-size: 36px;
     font-weight: 600;
@@ -1057,7 +1072,7 @@ fieldset .contformtxt {
 }
 
 .message {
-    width: 473px;
+    width: 470px;
     height: 168px;
     border: 1px solid #999999;
     color: #838383;
@@ -1095,8 +1110,7 @@ fieldset .contformtxt:focus,
 
 .rout {
     text-align: center;
-    margin-top: 96px;
-    margin-bottom: 25px;
+    margin: 40px 0;
     color: #f44336;
     font-size: 36px;
     font-weight: 600;
@@ -1322,4 +1336,7 @@ padding: 10px;
 .imgedit{
     display: flex;
     justify-content: flex-start;
+}
+.itemForm{
+    margin-bottom: 10px;
 }
