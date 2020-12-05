@@ -34,10 +34,10 @@ class C_Mailer extends C_Base
 
             $mail->SMTPAuth   = true;          // Enable SMTP authentication
             $mail->Username   = 'roman82direct';       // ваше имя пользователя (без домена и @)
-            $mail->Password   = 'Roman153';    // ваш пароль
+            $mail->Password   = 'dev_pass2020';    // ваш пароль
             $mail->SMTPSecure = 'ssl';         // шифрование ssl
             $mail->Port   = 465;               // порт подключения
-
+            $mail->CharSet = 'utf-8';
 //            $mail->SMTPOptions = array(        //Настройки шифрования SMTP
 //                'ssl' => array(
 //                    'verify_peer' => false,
@@ -53,8 +53,9 @@ class C_Mailer extends C_Base
             $mail->Subject = 'Отправка почты с сайта Gamers';
 //            $mail->msgHTML($_POST['message']);
             $mail->msgHTML("<html><body>
-                <h1>Здравствуйте!</h1>
+                <h3>Gamers mail:</h3>
                 <p>".$_POST['message']."</p>
+                <hr>
                 </html></body>");
 // Отправляем
 

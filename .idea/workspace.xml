@@ -19,10 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7d4d114b-5817-4670-b0ff-62962a654961" name="Default Changelist" comment="PHPmailer: add">
+    <list default="true" id="7d4d114b-5817-4670-b0ff-62962a654961" name="Default Changelist" comment="Mailer: done">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controllers/C_Validator.php" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/C_Mailer.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/views/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/views/contact.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controllers/C_Mailer.php" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/C_Mailer.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -105,7 +104,7 @@
       <workItem from="1607088104802" duration="208000" />
       <workItem from="1607178112806" duration="2469000" />
       <workItem from="1607195353598" duration="540000" />
-      <workItem from="1607195912591" duration="4710000" />
+      <workItem from="1607195912591" duration="5992000" />
     </task>
     <task id="LOCAL-00001" summary="styles done">
       <created>1605781741304</created>
@@ -170,7 +169,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607178679456</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Mailer: done">
+      <created>1607200658965</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1607200658965</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -199,7 +205,8 @@
     <MESSAGE value="validator: done" />
     <MESSAGE value="form validator: done" />
     <MESSAGE value="PHPmailer: add" />
-    <option name="LAST_COMMIT_MESSAGE" value="PHPmailer: add" />
+    <MESSAGE value="Mailer: done" />
+    <option name="LAST_COMMIT_MESSAGE" value="Mailer: done" />
   </component>
   <component name="WindowStateProjectService">
     <state x="667" y="162" key="#PHP" timestamp="1605633080496">
