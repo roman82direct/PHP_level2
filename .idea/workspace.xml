@@ -19,19 +19,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7d4d114b-5817-4670-b0ff-62962a654961" name="Default Changelist" comment="form validator: done">
-      <change beforePath="$PROJECT_DIR$/.idea/Project_1FW.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Project_1FW.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+    <list default="true" id="7d4d114b-5817-4670-b0ff-62962a654961" name="Default Changelist" comment="PHPmailer: add">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/ClassLoader.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/ClassLoader.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_classmap.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_classmap.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_files.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_files.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_psr4.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_psr4.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_real.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_real.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_static.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_static.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/installed.json" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/installed.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controllers/C_Validator.php" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/C_Mailer.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/views/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/views/contact.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,6 +57,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/public/views" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="reference.idesettings.emmet.jsx" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -111,7 +103,9 @@
       <workItem from="1606934562880" duration="42541000" />
       <workItem from="1607081326195" duration="1001000" />
       <workItem from="1607088104802" duration="208000" />
-      <workItem from="1607178112806" duration="523000" />
+      <workItem from="1607178112806" duration="2469000" />
+      <workItem from="1607195353598" duration="540000" />
+      <workItem from="1607195912591" duration="4710000" />
     </task>
     <task id="LOCAL-00001" summary="styles done">
       <created>1605781741304</created>
@@ -169,7 +163,14 @@
       <option name="project" value="LOCAL" />
       <updated>1606847063792</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="PHPmailer: add">
+      <created>1607178679456</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1607178679456</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -197,17 +198,18 @@
     <MESSAGE value="validator: start" />
     <MESSAGE value="validator: done" />
     <MESSAGE value="form validator: done" />
-    <option name="LAST_COMMIT_MESSAGE" value="form validator: done" />
+    <MESSAGE value="PHPmailer: add" />
+    <option name="LAST_COMMIT_MESSAGE" value="PHPmailer: add" />
   </component>
   <component name="WindowStateProjectService">
     <state x="667" y="162" key="#PHP" timestamp="1605633080496">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="667" y="162" key="#PHP/0.0.1920.1040@0.0.1920.1040" timestamp="1605633080496" />
-    <state x="453" y="21" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1605862836840">
+    <state x="453" y="1" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1607195851155">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="453" y="21" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1605862836840" />
+    <state x="453" y="1" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1607195851155" />
     <state x="690" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1606738840851">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -224,6 +226,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="795" y="442" key="NewPhpFileDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1606847640047" />
+    <state x="461" y="151" key="SettingsEditor" timestamp="1607191302722">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="461" y="151" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1607191302722" />
     <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1606832159290">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
