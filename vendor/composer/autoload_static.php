@@ -7,8 +7,8 @@ namespace Composer\Autoload;
 class ComposerStaticInit40c6711e8bfac94b9d83793d9d884800
 {
     public static $files = array (
-        '0e6d7bf4a5811bfa5cf40c5ccd6fae6a' => __DIR__ . '/..' . '/symfony/polyfill-mbstring/bootstrap.php',
         '320cde22f66dd4f5d3fd621d3e88b98f' => __DIR__ . '/..' . '/symfony/polyfill-ctype/bootstrap.php',
+        '0e6d7bf4a5811bfa5cf40c5ccd6fae6a' => __DIR__ . '/..' . '/symfony/polyfill-mbstring/bootstrap.php',
     );
 
     public static $prefixLengthsPsr4 = array (
@@ -20,6 +20,10 @@ class ComposerStaticInit40c6711e8bfac94b9d83793d9d884800
         array (
             'Symfony\\Polyfill\\Mbstring\\' => 26,
             'Symfony\\Polyfill\\Ctype\\' => 23,
+        ),
+        'P' => 
+        array (
+            'PHPMailer\\PHPMailer\\' => 20,
         ),
     );
 
@@ -36,6 +40,10 @@ class ComposerStaticInit40c6711e8bfac94b9d83793d9d884800
         array (
             0 => __DIR__ . '/..' . '/symfony/polyfill-ctype',
         ),
+        'PHPMailer\\PHPMailer\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/phpmailer/phpmailer/src',
+        ),
     );
 
     public static $prefixesPsr0 = array (
@@ -48,12 +56,17 @@ class ComposerStaticInit40c6711e8bfac94b9d83793d9d884800
         ),
     );
 
+    public static $classMap = array (
+        'Composer\\InstalledVersions' => __DIR__ . '/..' . '/composer/InstalledVersions.php',
+    );
+
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
             $loader->prefixLengthsPsr4 = ComposerStaticInit40c6711e8bfac94b9d83793d9d884800::$prefixLengthsPsr4;
             $loader->prefixDirsPsr4 = ComposerStaticInit40c6711e8bfac94b9d83793d9d884800::$prefixDirsPsr4;
             $loader->prefixesPsr0 = ComposerStaticInit40c6711e8bfac94b9d83793d9d884800::$prefixesPsr0;
+            $loader->classMap = ComposerStaticInit40c6711e8bfac94b9d83793d9d884800::$classMap;
 
         }, null, ClassLoader::class);
     }
