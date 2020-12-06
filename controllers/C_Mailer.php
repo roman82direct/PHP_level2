@@ -19,9 +19,9 @@ class C_Mailer extends C_Base
         if (!empty($res[0]) || !empty($res[1]) || !empty($res[2])) {
             $goods = db::getRows('SELECT * FROM goods limit 4', []);
             $this->title .= ' Не верно заполнены поля';
-            $this->render('Catalog.html', ['title' => $this->title,
-                'catalog' => '1', 'goods' => $goods, 'mesName' => $res[0], 'mesTel' => $res[1], 'mesMail' => $res[2],
-                'name' => $_POST['name'], 'tel' => $_POST['tel'], 'mail' => $_POST['email'], 'error' => $res[0] . $res[1] . $res[2],
+            $this->render('contacts.html', ['title' => $this->title,
+                'contacts' => '1', 'goods' => $goods, 'mesName' => $res[0], 'mesTel' => $res[1], 'mesMail' => $res[2],
+                'name' => $_POST['name'], 'tel' => $_POST['tel'], 'mail' => $_POST['email'], 'messValue' => $_POST['message'], 'error' => $res[0] . $res[1] . $res[2],
                 'date' => date('d-M-Y;  H-i')]);
         } else {
             $mail = new PHPMailer();
@@ -74,13 +74,13 @@ class C_Mailer extends C_Base
 ////            $res = mail($to, $subject, $message, $headers);
             if ($mail->send()){
                 $goods = db::getRows('SELECT * FROM goods limit 4', []);
-                $this->render('Catalog.html', ['title' => 'Сообщение отправлено',
-                    'catalog' => '1', 'goods' => $goods, 'message' => 'Сообщение успешно отправлено']);
+                $this->render('contacts.html', ['title' => 'Сообщение отправлено',
+                    'contacts' => '1', 'goods' => $goods, 'message' => 'Сообщение успешно отправлено']);
             } else {
                 $errorMessage = $mail->ErrorInfo;
                 $goods = db::getRows('SELECT * FROM goods limit 4', []);
-                $this->render('Catalog.html', ['title' => ' Ошибка сервера',
-                    'catalog' => '1', 'goods' => $goods, 'message' => $errorMessage]);
+                $this->render('contacts.html', ['title' => ' Ошибка сервера',
+                    'contacts' => '1', 'goods' => $goods, 'message' => $errorMessage]);
             }
         }
     }
