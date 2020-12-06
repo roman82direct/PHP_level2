@@ -19,10 +19,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7d4d114b-5817-4670-b0ff-62962a654961" name="Default Changelist" comment="Project: add contacts.html">
+    <list default="true" id="7d4d114b-5817-4670-b0ff-62962a654961" name="Default Changelist" comment="Project: DONE">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controllers/C_Contacts.php" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/C_Contacts.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/views/contacts.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/views/contacts.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -106,7 +104,8 @@
       <workItem from="1607178112806" duration="2469000" />
       <workItem from="1607195353598" duration="540000" />
       <workItem from="1607195912591" duration="12807000" />
-      <workItem from="1607276118566" duration="2928000" />
+      <workItem from="1607276118566" duration="3204000" />
+      <workItem from="1607281106625" duration="648000" />
     </task>
     <task id="LOCAL-00001" summary="styles done">
       <created>1605781741304</created>
@@ -199,7 +198,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607278073636</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Project: DONE">
+      <created>1607279073208</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1607279073208</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -232,7 +238,8 @@
     <MESSAGE value="Mailer: optimise" />
     <MESSAGE value="Project: show modal on searchRes.html done" />
     <MESSAGE value="Project: add contacts.html" />
-    <option name="LAST_COMMIT_MESSAGE" value="Project: add contacts.html" />
+    <MESSAGE value="Project: DONE" />
+    <option name="LAST_COMMIT_MESSAGE" value="Project: DONE" />
   </component>
   <component name="WindowStateProjectService">
     <state x="667" y="162" key="#PHP" timestamp="1605633080496">

@@ -31,7 +31,7 @@ class C_Admin extends C_Base {
         if ($this -> IsPost()){
             $admin = new M_Admin($_POST['id_good'],'', '', '');
             $admin->load_img();
-            header('Location: ../public/index.php?act=view&c=goodedit&id_good='.$_POST['id_good']);
+            header('Location: ../public_html/index.php?act=view&c=goodedit&id_good='.$_POST['id_good']);
         }
     }
 
@@ -39,7 +39,7 @@ class C_Admin extends C_Base {
         if ($this -> IsPost()){
             $admin = new M_Admin($_POST['goodId'], $_POST['title'], $_POST['price'], $_POST['discr']);
             $admin->save_good();
-            header('Location: ../public/index.php?act=view&c=goodedit&id_good='.$_POST['goodId']);
+            header('Location: ../public_html/index.php?act=view&c=goodedit&id_good='.$_POST['goodId']);
         }
 //        $this->action_index();
     }
