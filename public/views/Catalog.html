@@ -5,7 +5,7 @@
 <div class="alert alert-info">Покупка доступна только зарегистрированным пользователям</div>
 {% endif %}
 <div class="gallery" id="goods">
-  <div class="galbl">
+  <div id="products" class="galbl">
         {% for good in goods %}
         <div class="galitem">
             <img src="catalogImg/{{good.catalogImg}}">
@@ -42,7 +42,6 @@
         {% endfor %}
 
   </div>
-  <div id="showContent" class="galbl"></div>
 
 </div>
 <a href="#" id="showMore" data-user="{{ user.id }}" class="show">Показать ещё...</a>
@@ -51,7 +50,7 @@
 <script>
     // отработка показа доп карточек в галерее AJAX
     let showbutton = document.getElementById('showMore');
-    let cont = document.getElementById('showContent');
+    let cont = document.getElementById('products');
     let textId = document.getElementsByClassName('itemId');
 
     showbutton.onclick = (event) => {
@@ -88,6 +87,7 @@
     function showModalGood(event){
         var card = event.target;
         var cardNum = card.id.split("_")[1];
+        console.log(cardNum);
         var modal = document.getElementById('modalGood_' + cardNum);
         var close = document.getElementById('closeModalGood_' + cardNum);
         let ok = document.getElementById('ok_' + cardNum);

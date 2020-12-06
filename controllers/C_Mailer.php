@@ -4,7 +4,6 @@ require '../vendor/phpmailer/phpmailer/src/PHPMailer.php';
 require '../vendor/phpmailer/phpmailer/src/SMTP.php';
 
 use PHPMailer\PHPMailer\PHPMailer;
-use PHPMailer\PHPMailer\SMTP;
 
 
 class C_Mailer extends C_Base
@@ -48,7 +47,7 @@ class C_Mailer extends C_Base
 
             $mail->setFrom($_POST['email'], $_POST['name']);    // от кого
             $mail->addAddress('roman82direct@yandex.ru', 'Admin'); // кому
-            $mail->addCC('roman82spb@mail.ru', 'Admin'); // кому
+//            $mail->addCC('roman82spb@mail.ru', 'Admin'); // кому копия
 
             $mail->Subject = 'Отправка почты с сайта Gamers';
 //            $mail->msgHTML($_POST['message']);
@@ -56,8 +55,15 @@ class C_Mailer extends C_Base
                 <h3>Gamers mail:</h3>
                 <p>".$_POST['message']."</p>
                 <hr>
+                <div class='mailflex'>
+                <p>Электронный адрес отправителя: </p>
+                <h4>".$_POST['email']."<?h4>
+                </div>
+                <div style='display: flex'>
+                <p>Контактный телефон отправителя: </p>
+                <h4>".$_POST['tel']."<?h4>
+                </div>
                 </html></body>");
-// Отправляем
 
 ////            Отправка при помощи mail() через OpenServer
 ////
@@ -72,7 +78,6 @@ class C_Mailer extends C_Base
                     'catalog' => '1', 'goods' => $goods, 'message' => 'Сообщение успешно отправлено']);
             } else {
                 $errorMessage = $mail->ErrorInfo;
-//                $errorMessage = error_get_last()['message'];
                 $goods = db::getRows('SELECT * FROM goods limit 4', []);
                 $this->render('Catalog.html', ['title' => ' Ошибка сервера',
                     'catalog' => '1', 'goods' => $goods, 'message' => $errorMessage]);
