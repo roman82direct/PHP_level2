@@ -1,16 +1,17 @@
 <?php
 session_start();
+//echo __DIR__;
 
 // Загрузка классов шаблонизатора
-require_once '../vendor/autoload.php';
+require_once $_SERVER['DOCUMENT_ROOT'] . '/vendor/autoload.php';
 
 // Класс для работы с БД
-require_once '../config/DB.php';
+require_once $_SERVER['DOCUMENT_ROOT'] . '/config/DB.php';
 
 spl_autoload_register('c_autoload');
 //TODO переписать автозагрузчик для подключения всех классов
 function c_autoload($classname){
-	include_once("../controllers/$classname.php");
+	include_once($_SERVER['DOCUMENT_ROOT']."/controllers/$classname.php");
 }
 
 //site.ru/index.php?act=auth&controllers=User

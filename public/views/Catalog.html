@@ -8,7 +8,7 @@
   <div id="products" class="galbl">
         {% for good in goods %}
         <div class="galitem">
-            <img src="catalogImg/{{ good.catalogImg }}" alt="{{ good.name }}">
+            <img src="public/catalogImg/{{ good.catalogImg }}" alt="{{ good.name }}">
             <div class="overlay" id="over_{{good.id_good}}"></div>
             <h3>{{ good.name }}</h3>
             <p class="itemId">{{ good.id_good }}</p>
@@ -28,7 +28,7 @@
                     <h4 class="orderTitle">Наименование: {{ good.name }}</h4>
                     <h4 class="orderTitle">Цена: {{ good.price }}$</h4>
                     <div class="modalInfo">
-                        <img src="catalogImg/{{good.catalogImg}}">
+                        <img src="public/catalogImg/{{good.catalogImg}}">
                         <p>{{good.discription}}</p>
                     </div>
 
@@ -57,7 +57,7 @@
         event.preventDefault();
 
         jQuery.ajax({   //$.ajax
-            url: '../models/showNext.php',
+            url: './models/showNext.php',
             method: 'GET',
             dataType: 'html',
             data: {

@@ -1,5 +1,5 @@
 <?php
-require_once '../config/DB.php';
+require_once $_SERVER['DOCUMENT_ROOT'] .'/config/DB.php';
 
 class M_Search
 {

@@ -2,7 +2,7 @@
 //
 // Конттроллер страницы чтения.
 //
-require_once('../models/M_User.php');
+require_once($_SERVER['DOCUMENT_ROOT'] .'/models/M_User.php');
 
 class C_User extends C_Base
 {

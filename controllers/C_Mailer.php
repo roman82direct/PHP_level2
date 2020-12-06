@@ -1,7 +1,7 @@
 <?php
-require_once '../models/M_Validator.php';
-require '../vendor/phpmailer/phpmailer/src/PHPMailer.php';
-require '../vendor/phpmailer/phpmailer/src/SMTP.php';
+require_once $_SERVER['DOCUMENT_ROOT'] .'/models/M_Validator.php';
+require $_SERVER['DOCUMENT_ROOT'] .'/vendor/phpmailer/phpmailer/src/PHPMailer.php';
+require $_SERVER['DOCUMENT_ROOT'] .'/vendor/phpmailer/phpmailer/src/SMTP.php';
 
 use PHPMailer\PHPMailer\PHPMailer;
 

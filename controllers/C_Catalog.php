@@ -1,5 +1,5 @@
 <?php
-require_once('../models/M_Basket.php');
+require_once($_SERVER['DOCUMENT_ROOT'] .'/models/M_Basket.php');
 //require '../controllers/C_Base.php';
 
 class C_Catalog extends C_Base

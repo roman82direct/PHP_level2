@@ -1,5 +1,5 @@
 <?php
-include_once '../models/M_Search.php';
+include_once $_SERVER['DOCUMENT_ROOT'] .'/models/M_Search.php';
 
 
 class C_Search extends C_Base

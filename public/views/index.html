@@ -2,16 +2,16 @@
 
 {% block content %}
 <div class="firstdisp">
-    <img class="firstImg" src="img/firstpagebkgr.jpg" alt="">
+    <img class="firstImg" src="public/img/firstpagebkgr.jpg" alt="">
     <div class="firstTxt">
     <p class="firstpage-text1">Historical Games</p>
-    <div class="imgtxt"><img src="img/imgtxt.svg" alt="block3"></div>
+    <div class="imgtxt"><img src="public/img/imgtxt.svg" alt="block3"></div>
     <h1 class="firstpage-h1">The Worldwide Best Games...</h1>
     <div class="social">
-        <a href="#" class="sociallink"><img src="img/facebook-logo.png" alt="FB"></a>
-        <a href="#" class="sociallink"><img src="img/twitter-logo-silhouette.png" alt="twitter"></a>
-        <a href="#" class="sociallink"><img src="img/rss-feed-suscription-button-symbol-for-interface.png" alt="rss"></a>
-        <a href="#" class="sociallink"><img src="img/vk-social-network-logo.png" alt="vk"></a>
+        <a href="#" class="sociallink"><img src="public/img/facebook-logo.png" alt="FB"></a>
+        <a href="#" class="sociallink"><img src="public/img/twitter-logo-silhouette.png" alt="twitter"></a>
+        <a href="#" class="sociallink"><img src="public/img/rss-feed-suscription-button-symbol-for-interface.png" alt="rss"></a>
+        <a href="#" class="sociallink"><img src="public/img/vk-social-network-logo.png" alt="vk"></a>
     </div>
     </div>
 
@@ -21,7 +21,7 @@
         <h3 class="abouttext1"><a name="about"></a>About Us!
         </h3>
         <p class="abouttext2">Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur?<br><br>Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?</p>
-        <img src="img/aboutimg.jpg" alt="aboutimg" class="aboutimg">
+        <img src="public/img/aboutimg.jpg" alt="aboutimg" class="aboutimg">
         <div class="clrabout"></div>
     </div>
 </div>
@@ -85,7 +85,7 @@
         <div class="galbl">
             {% for good in goods %}
             <div class="galitem">
-                <img src="catalogImg/{{good.catalogImg}}">
+                <img src="public/catalogImg/{{good.catalogImg}}">
                 <div class="overlay" id="over_{{good.id_good}}"></div>
                 <h3>{{ good.name }}</h3>
                 <p class="itemId">{{ good.id_good }}</p>
@@ -105,7 +105,7 @@
                         <h4 class="orderTitle">Наименование: {{ good.name }}</h4>
                         <h4 class="orderTitle">Цена: {{ good.price }}$</h4>
                         <div class="modalInfo">
-                            <img src="catalogImg/{{good.catalogImg}}" alt="{{ good.name }}">
+                            <img src="public/catalogImg/{{good.catalogImg}}" alt="{{ good.name }}">
                             <p>{{good.discription}}</p>
                         </div>
 

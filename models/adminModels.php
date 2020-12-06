@@ -1,5 +1,5 @@
 <?php
-require_once '../config/DB.php';
+require_once $_SERVER['DOCUMENT_ROOT'] .'/config/DB.php';
 
 // Ajax рендер товаров в админку
 if (isset($_GET['goods'])) {
@@ -9,7 +9,7 @@ if (isset($_GET['goods'])) {
     foreach ($goods as $val) {
         echo
             "<div class='galitem'>" .
-                "<img src=" . "catalogImg/" . $val['catalogImg'] . ">" .
+                "<img src=" . "public/catalogImg/" . $val['catalogImg'] . ">" .
                 "<h3>" . $val['name'] . "</h3>" .
                 "<p class='itemId'>" . $val['id_good'] . "</p>" .
                 "<p class='itemprice'>" . $val['price'] . "$" . "</p>" .

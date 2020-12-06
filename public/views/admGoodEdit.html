@@ -29,7 +29,7 @@
     <form style="margin-top: 30px; width: 40%; padding: 20px; border: 1px solid grey" action="index.php?act=changeImg&c=admin" method="post" enctype="multipart/form-data">
         <label for="admimg">Фото каталога: {{ img }}</label><br>
         <div class="imgedit">
-            <img id="admimg" class="admimg" src="catalogImg/{{img}}">
+            <img id="admimg" class="admimg" src="public/catalogImg/{{img}}">
                 <div>
                     <h4>Изменить картинку</h4>
                     <input type="file" name="img" accept="image/jpeg, image/png">

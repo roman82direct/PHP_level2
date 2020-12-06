@@ -1,5 +1,5 @@
 <?php
-require_once '../controllers/C_Controller.php';
+require_once $_SERVER['DOCUMENT_ROOT'].'/controllers/C_Controller.php';
 //require_once '../vendor/twig/twig/src/Loader/FilesystemLoader.php';
 //
 // Базовый контроллер сайта.
@@ -16,7 +16,7 @@ abstract class C_Base extends C_Controller
 	
 	protected function render($template, $args){
 		$arg = $args;
-		$loader = new \Twig\Loader\FilesystemLoader('./views/');
+		$loader = new \Twig\Loader\FilesystemLoader($_SERVER['DOCUMENT_ROOT'].'/public/views/');
 		$twig = new \Twig\Environment($loader);
 		if (isset($_SESSION['basket'])){
             $goodsInBasket = count($_SESSION['basket']);

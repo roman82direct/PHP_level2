@@ -1,5 +1,5 @@
 <?php
-require_once('../models/M_Basket.php');
+require_once($_SERVER['DOCUMENT_ROOT'] .'/models/M_Basket.php');
 
 class C_Basket extends C_Base
 {
