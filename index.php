@@ -1,6 +1,5 @@
 <?php
 session_start();
-//echo __DIR__;
 
 // Загрузка классов шаблонизатора
 require_once $_SERVER['DOCUMENT_ROOT'] . '/vendor/autoload.php';
