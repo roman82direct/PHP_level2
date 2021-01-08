@@ -1,0 +1,309 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="7d4d114b-5817-4670-b0ff-62962a654961" name="Default Changelist" comment="Project: prepare for host: index.php в корень, абсолютные пути">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/M_Admin.php" beforeDir="false" afterPath="$PROJECT_DIR$/models/M_Admin.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/showNext.php" beforeDir="false" afterPath="$PROJECT_DIR$/models/showNext.php" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
+    <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
+    <execution>
+      <executable path="composer" />
+    </execution>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP 7.2">
+    <include_path>
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-ctype" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-mbstring" />
+      <path value="$PROJECT_DIR$/vendor/twig/twig" />
+      <path value="$PROJECT_DIR$/vendor/composer" />
+      <path value="$PROJECT_DIR$/vendor/phpmailer/phpmailer" />
+    </include_path>
+  </component>
+  <component name="ProjectId" id="1kQVLjN1YvD9zQ2lq9wWYRVx4u3" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="reference.idesettings.emmet.jsx" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\OpenServer\OpenServer\domains\PHPlevel2\PHP_level2" />
+      <recent name="C:\OpenServer\OpenServer\domains\PHPlevel2\PHP_level2\public\views" />
+      <recent name="C:\OpenServer\OpenServer\domains\PHPlevel2\PHP_level2\controllers" />
+      <recent name="C:\OpenServer\OpenServer\domains\PHPlevel2\PHP_level2\public" />
+      <recent name="C:\OpenServer\OpenServer\domains\PHPlevel2\PHP_level2\models" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\OpenServer\OpenServer\domains\PHPlevel2\PHP_level2\" />
+      <recent name="C:\OpenServer\OpenServer\domains\PHPlevel2\PHP_level2\public_html" />
+      <recent name="C:\OpenServer\OpenServer\domains\PHPlevel2\PHP_level2\models" />
+      <recent name="C:\OpenServer\OpenServer\domains\PHPlevel2\PHP_level2\public" />
+      <recent name="C:\OpenServer\OpenServer\domains\PHPlevel2\PHP_level2\config" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7d4d114b-5817-4670-b0ff-62962a654961" name="Default Changelist" comment="" />
+      <created>1605632750539</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1605632750539</updated>
+      <workItem from="1605632752530" duration="1398000" />
+      <workItem from="1605634376315" duration="4612000" />
+      <workItem from="1605640696288" duration="9564000" />
+      <workItem from="1605774005721" duration="19578000" />
+      <workItem from="1605861331592" duration="10665000" />
+      <workItem from="1605895651650" duration="12865000" />
+      <workItem from="1606158943730" duration="5488000" />
+      <workItem from="1606164690047" duration="5376000" />
+      <workItem from="1606203935962" duration="14714000" />
+      <workItem from="1606241288661" duration="7294000" />
+      <workItem from="1606252561839" duration="5164000" />
+      <workItem from="1606480707121" duration="4021000" />
+      <workItem from="1606561168307" duration="8295000" />
+      <workItem from="1606733550471" duration="4072000" />
+      <workItem from="1606737711049" duration="4839000" />
+      <workItem from="1606742708887" duration="1303000" />
+      <workItem from="1606806671501" duration="20664000" />
+      <workItem from="1606840467420" duration="18729000" />
+      <workItem from="1606934562880" duration="42541000" />
+      <workItem from="1607081326195" duration="1001000" />
+      <workItem from="1607088104802" duration="208000" />
+      <workItem from="1607178112806" duration="2469000" />
+      <workItem from="1607195353598" duration="540000" />
+      <workItem from="1607195912591" duration="12807000" />
+      <workItem from="1607276118566" duration="3204000" />
+      <workItem from="1607281106625" duration="1607000" />
+      <workItem from="1607282991976" duration="10086000" />
+      <workItem from="1607326654136" duration="1953000" />
+    </task>
+    <task id="LOCAL-00001" summary="styles done">
+      <created>1605781741304</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1605781741304</updated>
+    </task>
+    <task id="LOCAL-00002" summary="img downloader done">
+      <created>1606743933109</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1606743933109</updated>
+    </task>
+    <task id="LOCAL-00003" summary="savegoog processing">
+      <created>1606814452729</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1606814452729</updated>
+    </task>
+    <task id="LOCAL-00004" summary="admin: save &amp; delete good done">
+      <created>1606816688059</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1606816688059</updated>
+    </task>
+    <task id="LOCAL-00005" summary="admin: loadImg good done">
+      <created>1606817934332</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1606817934332</updated>
+    </task>
+    <task id="LOCAL-00006" summary="admin: done (add, change, remove, loadimg) GOOD">
+      <created>1606821184911</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1606821184912</updated>
+    </task>
+    <task id="LOCAL-00007" summary="validator: start">
+      <created>1606832037352</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1606832037352</updated>
+    </task>
+    <task id="LOCAL-00008" summary="form validator: done">
+      <created>1606847063792</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1606847063792</updated>
+    </task>
+    <task id="LOCAL-00009" summary="PHPmailer: add">
+      <created>1607178679456</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1607178679456</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Mailer: done">
+      <created>1607200658965</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1607200658965</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Mailer: optimise">
+      <created>1607201941488</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1607201941488</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Project: show modal on searchRes.html done">
+      <created>1607275084228</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1607275084229</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Project: add contacts.html">
+      <created>1607278073636</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1607278073636</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Project: DONE">
+      <created>1607279073208</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1607279073208</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Project: change public to public_html">
+      <created>1607282061933</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1607282061933</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Project: prepare for host: index.php в корень, абсолютные пути">
+      <created>1607292639081</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1607292639081</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="styles done" />
+    <MESSAGE value="img downloader done" />
+    <MESSAGE value="savegoog processing" />
+    <MESSAGE value="admin: save &amp; delete good done" />
+    <MESSAGE value="admin: loadImg good done" />
+    <MESSAGE value="admin: done (add, change, remove, loadimg) GOOD" />
+    <MESSAGE value="validator: start" />
+    <MESSAGE value="validator: done" />
+    <MESSAGE value="form validator: done" />
+    <MESSAGE value="PHPmailer: add" />
+    <MESSAGE value="Mailer: done" />
+    <MESSAGE value="Mailer: optimise" />
+    <MESSAGE value="Project: show modal on searchRes.html done" />
+    <MESSAGE value="Project: add contacts.html" />
+    <MESSAGE value="Project: DONE" />
+    <MESSAGE value="Project: change public to public_html" />
+    <MESSAGE value="Project: prepare for host: index.php в корень, абсолютные пути" />
+    <option name="LAST_COMMIT_MESSAGE" value="Project: prepare for host: index.php в корень, абсолютные пути" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="667" y="162" key="#PHP" timestamp="1605633080496">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="667" y="162" key="#PHP/0.0.1920.1040@0.0.1920.1040" timestamp="1605633080496" />
+    <state x="640" y="255" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1607275760974">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="640" y="255" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1607275760974" />
+    <state x="453" y="1" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1607195851155">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="453" y="1" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1607195851155" />
+    <state x="690" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1606738840851">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="690" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1606738840851" />
+    <state x="738" y="431" key="ComposerInitDialogKey" timestamp="1607029312037">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="738" y="431" key="ComposerInitDialogKey/0.0.1920.1040@0.0.1920.1040" timestamp="1607029312037" />
+    <state x="677" y="242" key="NewPhpClassDialog" timestamp="1606936180230">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="677" y="242" key="NewPhpClassDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1606936180230" />
+    <state x="795" y="442" key="NewPhpFileDialog" timestamp="1606847640047">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="795" y="442" key="NewPhpFileDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1606847640047" />
+    <state x="461" y="151" key="SettingsEditor" timestamp="1607191302722">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="461" y="151" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1607191302722" />
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1606832159290">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1606832159290" />
+    <state x="616" y="235" key="run.anything.popup" timestamp="1606827169543">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="616" y="235" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1606827169543" />
+  </component>
+</project>
